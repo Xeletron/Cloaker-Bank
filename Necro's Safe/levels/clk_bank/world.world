@@ -69,10 +69,10 @@
 		<entry key="environment_values" type="table">
 			<entry key="color_grading" type="string" value="color_payday"/>
 			<entry key="environment" type="string" value=".map/environments/default"/>
-			<entry key="sky_rot" type="number" value="53"/>
+			<entry key="sky_rot" type="number" value="0"/>
 		</entry>
 		<entry key="wind" type="table">
-			<entry key="angle" type="number" value="0"/>
+			<entry key="angle" type="number" value="87.1747"/>
 			<entry key="angle_var" type="number" value="0"/>
 			<entry key="speed" type="number" value="6"/>
 			<entry key="speed_variation" type="number" value="1"/>
