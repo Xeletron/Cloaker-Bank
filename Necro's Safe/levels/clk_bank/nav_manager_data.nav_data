@@ -2207,6 +2207,12 @@
 	</entry>
 	<entry key="nav_segments" type="table">
 		<entry index="1" type="table">
+			<entry key="choke_point_proxies" type="table">
+			</entry>
+			<entry key="choke_points" type="table">
+			</entry>
+			<entry key="in_proxies" type="table">
+			</entry>
 			<entry key="location_id" type="string" value="location_unknown"/>
 			<entry key="neighbours" type="table">
 				<entry index="2" type="table">
@@ -2217,12 +2223,20 @@
 					<entry index="5" type="number" value="549"/>
 				</entry>
 			</entry>
+			<entry key="out_proxies" type="table">
+			</entry>
 			<entry key="pos" type="vector3" value="2149.73 -74.84 4.76837e-005"/>
 			<entry key="vis_groups" type="table">
 				<entry index="1" type="number" value="1"/>
 			</entry>
 		</entry>
 		<entry index="2" type="table">
+			<entry key="choke_point_proxies" type="table">
+			</entry>
+			<entry key="choke_points" type="table">
+			</entry>
+			<entry key="in_proxies" type="table">
+			</entry>
 			<entry key="location_id" type="string" value="location_unknown"/>
 			<entry key="neighbours" type="table">
 				<entry index="1" type="table">
@@ -2232,6 +2246,8 @@
 					<entry index="4" type="number" value="548"/>
 					<entry index="5" type="number" value="549"/>
 				</entry>
+			</entry>
+			<entry key="out_proxies" type="table">
 			</entry>
 			<entry key="pos" type="vector3" value="-567.382 33.6752 -1"/>
 			<entry key="vis_groups" type="table">

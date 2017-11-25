@@ -911,7 +911,7 @@
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_int_wall5_1m_a" name_id="lux_int_wall5_1m_a_004" position="-3210 -1560 5" rotation="0 0 0.707107 -0.707107" unit_id="100182"/>
 		</table>
 		<table>
-			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_int_wall5_4m_a" name_id="lux_int_wall5_4m_a_024" position="-3190 -1210 5" rotation="0 0 1 -8.9407e-008" unit_id="100187"/>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_int_wall5_4m_a" name_id="lux_int_wall5_4m_a_024" position="-3190 -1205 5" rotation="0 0 1 -8.9407e-008" unit_id="100187"/>
 		</table>
 		<table>
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_int_wall5_4m_a" name_id="lux_int_wall5_4m_a_025" position="-1315 1285 0" rotation="0 0 0 -1" unit_id="100206"/>
@@ -1016,9 +1016,6 @@
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_red/props/red_prop_office_walls/red_prop_office_wall_frame" name_id="red_prop_office_wall_frame_003" position="-4340.53 -1754.9 775" rotation="0 0 -0.707107 -0.707107" unit_id="100547"/>
 		</table>
 		<table>
-			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_right" name_id="bnk_prop_office_desk_right_001" position="-4204.97 -1655.89 775" rotation="-0 0 -0 -1" unit_id="100549"/>
-		</table>
-		<table>
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_left" name_id="bnk_prop_office_desk_left_002" position="-3784.97 -1650.89 775" rotation="-0 0 -0 -1" unit_id="100551"/>
 		</table>
 		<table>
@@ -1026,9 +1023,6 @@
 		</table>
 		<table>
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_red/props/red_prop_office_walls/red_prop_office_wall_corner_04" name_id="red_prop_office_wall_corner_04_001" position="-4090.53 -2464.9 775" rotation="0 0 0.707107 -0.707107" unit_id="100534"/>
-		</table>
-		<table>
-			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_right" name_id="bnk_prop_office_desk_right_002" position="-4229.97 -2090.89 775" rotation="0 0 0.707107 -0.707107" unit_id="100523"/>
 		</table>
 		<table>
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/bnk/bnk_int_floor_4x4m_b" name_id="bnk_int_floor_4x4m_b_019" position="-3657.5 -2267.86 775" rotation="0 0 1 -4.37114e-008" unit_id="100546"/>
@@ -2306,7 +2300,7 @@
 			<unit_data _prev_pos="-5450.53 -2414.9 775" _prev_rot="0 0 0 -1" continent="world" local_pos="-200 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_red/props/red_prop_office_walls/red_prop_office_wall_2m" name_id="red_prop_office_wall_2m_004" position="-5450.53 -2324.9 775" rotation="0 0 0 -1" unit_id="100564"/>
 		</table>
 		<table>
-			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_left" name_id="manager3_ext_desk" position="-3764.97 -2520.89 775" rotation="0 0 0.707107 -0.707107" unit_id="100767"/>
+			<unit_data _prev_pos="-3764.97 -2520.89 775" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="83.3335 -24.0298 -77.2381" local_rot="0 0 -1 0" name="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_left" name_id="manager3_ext_desk" position="-3759.97 -2520.89 775" rotation="0 0 0.707107 -0.707107" unit_id="100767"/>
 		</table>
 		<table>
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_right" name_id="manager3_ext_desk" position="-3764.97 -2175.89 775" rotation="0 0 0.707107 -0.707107" unit_id="100768"/>
@@ -2411,7 +2405,7 @@
 			<unit_data _prev_pos="-4961.17 -3021.95 1035.56" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="499.17 0.000244141 260.56" local_rot="0 0 -0.707107 0.707107" mesh_variation="" name="units/world/props/apartment/exit_sign/exit_sign_01" name_id="exit_sign_01_001" position="-5056.17 -3021.95 1035.56" rotation="0 0 1 -4.37114e-008" unit_id="100750"/>
 		</table>
 		<table>
-			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_right" name_id="bnk_prop_office_desk_right_003" position="-5144.97 -2315.89 775" rotation="0 0 -0.707107 -0.707107" unit_id="100795"/>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_right" name_id="bnk_prop_office_desk_right_003" position="-5154.97 -2315.89 775" rotation="0 0 -0.707107 -0.707107" unit_id="100795"/>
 		</table>
 		<table>
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_fbi_flags/off_prop_fbi_flag" name_id="off_prop_fbi_flag_004" position="-4771.02 -2005.37 775" rotation="0 0 0.422618 -0.906308" unit_id="100796"/>
@@ -2513,7 +2507,7 @@
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_left" name_id="manager2_desk" position="-6149.97 -2895.89 775" rotation="0 0 0.707107 -0.707107" unit_id="100824"/>
 		</table>
 		<table>
-			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_shelf_3m_b" name_id="manager2_shelf" position="-6050 -2995.89 775" rotation="0 0 0 -1" unit_id="100825"/>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_shelf_3m_b" name_id="manager2_shelf" position="-6005 -2995.89 775" rotation="0 0 0 -1" unit_id="100825"/>
 		</table>
 		<table>
 			<unit_data continent="world" disable_collision="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_fbi_carpet/off_prop_fbi_carpet_a" name_id="off_prop_fbi_carpet_a_002" position="-6031.46 -2772.84 775" rotation="0 0 -0.707107 -0.707107" unit_id="100826"/>
@@ -2537,22 +2531,22 @@
 			<unit_data _prev_pos="-4407.57 -1686.87 852.24" _prev_rot="0 0 0.92388 -0.382683" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" name_id="secret_stash_hack_keyboard_interaction_001" position="-4411.11 -1683.33 852.24" rotation="0 0 0.92388 -0.382683" unit_id="100831"/>
 		</table>
 		<table>
-			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="off_prop_officehigh_chair_deluxe_001" position="-4478.45 -1583.19 775" rotation="0 0 -0.382683 -0.92388" unit_id="100832"/>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="off_prop_officehigh_chair_deluxe_001" position="-4470.67 -1636.22 775" rotation="0 0 -0.382683 -0.92388" unit_id="100832"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4431.95 -1710.97 852.24" _prev_rot="0 0 0.92388 -0.382683" continent="world" local_pos="-24.3794 -24.1041 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_mouse" name_id="computer_mouse_001" position="-4431.95 -1710.97 852.24" rotation="0 0 0.92388 -0.382683" unit_id="100833"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-4407.57 -1686.87 852.24" _prev_rot="0 0 0.92388 -0.382683" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" name_id="secret_stash_hack_keyboard_interaction_002" position="-4269.67 -1692.37 852.24" rotation="0 0 0.92388 0.382683" unit_id="100834"/>
+			<unit_data _prev_pos="-4269.67 -1692.37 852.24" _prev_rot="0 0 0.92388 0.382683" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" name_id="secret_stash_hack_keyboard_interaction_002" position="-4269.67 -1692.37 852.24" rotation="0 0 0.92388 0.382683" unit_id="100834"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-4388.15 -1708.36 852.24" _prev_rot="0 0 -0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="1_main_screen_on_v2" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="gen_interactable_hack_computer_a_002" position="-4310.55 -1681.71 852.24" rotation="0 0 0.608761 -0.793353" unit_id="100835"/>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="1_main_screen_on_v2" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="gen_interactable_hack_computer_a_002" position="-4310.55 -1681.71 851.24" rotation="0 0 0.608761 -0.793353" unit_id="100835"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4344.36 -1699.33 852.24" _prev_rot="0 0 -0.866025 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_mouse" name_id="computer_mouse_002" position="-4286.23 -1660 852.24" rotation="0 0 -0.793353 -0.608762" unit_id="100836"/>
 		</table>
 		<table>
-			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="1_main_screen_on" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="gen_interactable_hack_computer_a_003" position="-4273.72 -1729.52 852.24" rotation="0 0 0.258822 -0.965925" unit_id="100837"/>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="1_main_screen_on" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="gen_interactable_hack_computer_a_003" position="-4273.72 -1729.52 851.24" rotation="0 0 0.258822 -0.965925" unit_id="100837"/>
 		</table>
 		<table>
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="off_prop_officehigh_chair_deluxe_002" position="-4221.74 -1611.03 775" rotation="0 0 0.130526 -0.991445" unit_id="100838"/>
@@ -3107,7 +3101,7 @@
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="off_prop_appliance_computer_001" position="-4524.34 -1704.83 775" rotation="0 0 1 -4.37114e-008" unit_id="101025"/>
 		</table>
 		<table>
-			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="off_prop_appliance_computer_002" position="-4149.34 -1704.83 775" rotation="0 0 1 -4.37114e-008" unit_id="101024"/>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="off_prop_appliance_computer_002" position="-4153.34 -1704.83 775" rotation="0 0 1 -4.37114e-008" unit_id="101024"/>
 		</table>
 		<table>
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/hotel/elevator/elevator_arrows" name_id="elevator_arrows_001" position="-5655.34 -1562.75 907.235" rotation="0.5 -0.5 0.5 -0.5" unit_id="101026"/>
@@ -3228,6 +3222,792 @@
 		</table>
 		<table>
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/world/props/apartment/exit_sign/exit_sign_01" name_id="exit_sign_01_002" position="-4408.47 -2108 255.43" rotation="0 0 1 -4.37114e-008" unit_id="101053"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_teller_pen/bnk_prop_teller_pen" name_id="bnk_prop_teller_pen_001" position="-4265.98 -1575.85 852.238" rotation="0 0 0.707107 -0.707107" unit_id="101054"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_papertray" name_id="desk_papertray_003" position="-4293.74 -1582.81 852.238" rotation="0 0 0 -1" unit_id="101055"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/clipboard01/clipboard_paper" name_id="clipboard_paper_001" position="-4289.09 -1624.88 852.238" rotation="0 0 0 -1" unit_id="101056"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_projector" name_id="computer_projector_001" position="-4129.44 -1910.06 1075" rotation="0 0 0.999962 -0.00872668" unit_id="101057"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_flowervase/com_prop_flowervase" name_id="com_prop_flowervase_002" position="-4107.51 -1718.78 852.238" rotation="0 0 0 -1" unit_id="101058"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/hotel/flower_pot/flower_pot_big" name_id="flower_pot_big_001" position="-4779.9 -2414.69 775" rotation="0 0 0 -1" unit_id="101059"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/bnk/bnk_int_seat_double" name_id="bnk_int_seat_double_001" position="-5223.07 -395.958 775" rotation="0 0 -0.707107 -0.707107" unit_id="101060"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/bnk/bnk_int_seat_double" name_id="bnk_int_seat_double_002" position="-5224.23 -632.727 775" rotation="0 0 -0.707107 -0.707107" unit_id="101061"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/bnk/bnk_int_seat_double" name_id="bnk_int_seat_double_003" position="-5224.65 -516.219 775" rotation="0 0 -0.707107 -0.707107" unit_id="101062"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/bnk/bnk_int_seat_double" name_id="bnk_int_seat_double_004" position="-5225.12 -749.845 775" rotation="0 0 -0.707107 -0.707107" unit_id="101063"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_wenge_large_shelves_12" name_id="off_prop_officehigh_drawer_wenge_large_shelves_12_001" position="-4000.64 -2651 775" rotation="0 0 1 4.37114e-008" unit_id="101064"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/hotel/flower_pot/flower_pot_big" name_id="flower_pot_big_002" position="-4047.25 -2625.9 775" rotation="0 0 -0.707107 -0.707107" unit_id="101065"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_shelf_3m_b" name_id="bnk_prop_office_shelf_3m_b_001" position="-5227.43 -1253.54 775" rotation="0 0 0.707107 -0.707107" unit_id="101066"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/binders/binders_shelf_01" name_id="binders_shelf_01_001" position="-3682.23 -1618.3 852.238" rotation="0 0 0.707107 -0.707107" unit_id="101067"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_teller_billshelf/bnk_prop_teller_billshelf" name_id="bnk_prop_teller_billshelf_001" position="-4461.33 -954.725 879" rotation="0 0 -0.707107 -0.707107" unit_id="101068"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/clipboard01/clipboard_paper" name_id="clipboard_paper_002" position="-4589.53 -817.102 850.884" rotation="0 0 1 4.37114e-008" unit_id="101069"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/clipboard01/clipboard_paper" name_id="clipboard_paper_003" position="-4778.96 -784.133 885.116" rotation="0 0 0.707107 -0.707107" unit_id="101070"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/clipboard01/clipboard_paper" name_id="clipboard_paper_004" position="-4464.96 -878.65 896" rotation="0.707107 0 -0.707107 -0" unit_id="101071"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_election_vase_lily/com_prop_election_vase_lily" name_id="com_prop_election_vase_lily_001" position="-5231.79 108.907 775" rotation="0 0 0 -1" unit_id="101072"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_01" name_id="off_prop_officehigh_binder_01_001" position="-3996.8 -2620.69 951.914" rotation="0 0 0.707107 -0.707107" unit_id="101073"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/shelfs/shelf_book_01" name_id="shelf_book_01_001" position="-3917.98 -2617.99 865.238" rotation="0 0 -0.707107 -0.707107" unit_id="101074"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/shelfs/shelf_book_03" name_id="shelf_book_03_001" position="-3984.74 -2622.18 817.238" rotation="0 0 -0.707107 -0.707107" unit_id="101075"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/shelfs/shelf_book_03" name_id="shelf_book_03_002" position="-3984.3 -2615.86 912.24" rotation="0 0 -0.707107 -0.707107" unit_id="101076"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/shelfs/shelf_book_04" name_id="shelf_book_04_001" position="-3919.03 -2622.75 781.238" rotation="0 0 -0.707107 -0.707107" unit_id="101077"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_appliance_conference_phone/bnk_prop_appliance_conference_phone" name_id="bnk_prop_appliance_conference_phone_001" position="-4169.21 -1715.53 852.238" rotation="0 0 -0.707107 -0.707107" unit_id="101079"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_chair_visitor/bnk_prop_office_chair_visitor" name_id="bnk_prop_office_chair_visitor_001" position="-4456.34 -1802.74 775" rotation="0 0 1 4.37114e-008" unit_id="101078"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_chair_visitor/bnk_prop_office_chair_visitor" name_id="bnk_prop_office_chair_visitor_002" position="-4537.26 -1801.41 775" rotation="0 0 1 4.37114e-008" unit_id="101080"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="off_prop_officehigh_chair_deluxe_003" position="-4210.87 -2084.01 775" rotation="0 0 0.927184 -0.374607" unit_id="101081"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_right" name_id="bnk_prop_office_desk_right_001" position="-4207.97 -1654.32 775" rotation="0 0 0 -1" unit_id="100523"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_right" name_id="bnk_prop_office_desk_right_002" position="-4224.31 -2092.97 776" rotation="0 0 0.707107 -0.707107" unit_id="100549"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_livingroom/book_shelf/book_shelf_single" name_id="book_shelf_single_001" position="-3819.15 -1551.95 928.583" rotation="0 0 0 -1" unit_id="101082"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_books_professional_03" name_id="off_prop_officehigh_books_professional_03_001" position="-3824.18 -1576.72 933.284" rotation="0 0 0 -1" unit_id="101083"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_books_professional_03" name_id="off_prop_officehigh_books_professional_03_002" position="-3722.04 -1573.56 932.864" rotation="0 0 0 -1" unit_id="101084"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/yacht/flowers/lxy_prop_flower_vase" name_id="lxy_prop_flower_vase_001" position="-3819.89 -1566.05 933.284" rotation="0 0 0 -1" unit_id="101085"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" name_id="secret_stash_hack_keyboard_interaction_003" position="-4269.67 -1692.37 852.24" rotation="0 0 0.92388 0.382683" unit_id="101086"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4269.67 -1692.37 852.24" _prev_rot="0 0 0.92388 0.382683" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" name_id="secret_stash_hack_keyboard_interaction_004" position="-4269.67 -1692.37 852.24" rotation="0 0 0.92388 0.382683" unit_id="101087"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" name_id="secret_stash_hack_keyboard_interaction_005" position="-4269.67 -1692.37 852.24" rotation="0 0 0.92388 0.382683" unit_id="101088"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" name_id="secret_stash_hack_keyboard_interaction_006" position="-4262.1 -2027.04 853.238" rotation="0 0 -0.325568 -0.945519" unit_id="101089"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_mouse" name_id="computer_mouse_003" position="-4232.23 -2001.66 853.238" rotation="0 0 -0.258819 -0.965926" unit_id="101090"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_phone/bnk_prop_phone" name_id="bnk_prop_phone_001" position="-4741.43 -816.533 851.116" rotation="0 0 0 -1" unit_id="101091"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_shelf_3m_b" name_id="bnk_prop_office_shelf_3m_b_002" position="-4893.61 -2845.26 775" rotation="0 0 -0.707107 -0.707107" unit_id="101092"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3729.18 -1711.86 852.238" _prev_rot="0 0 0.71934 -0.694658" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_lamp_desk/bnk_prop_office_lamp_desk" name_id="bnk_prop_office_lamp_desk_001" position="-3729.18 -1711.86 852.238" rotation="0 0 0.71934 -0.694658" unit_id="101093"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_teller_pen/bnk_prop_teller_pen" name_id="bnk_prop_teller_pen_002" position="-3848.38 -1723.99 851.238" rotation="0 0 0.529919 -0.848048" unit_id="101094"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/a4paperbox_02" name_id="a4paperbox_02_001" position="-3685.76 -1705.53 852.238" rotation="0 0 0 -1" unit_id="101095"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/a4paperbox_02" name_id="a4paperbox_02_002" position="-3685.02 -1733.6 852.238" rotation="0 0 0 -1" unit_id="101096"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/a4paperbox_bottom_01" name_id="a4paperbox_bottom_01_001" position="-3679.89 -1720.67 878.288" rotation="0 0 0.71934 -0.694658" unit_id="101097"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_papertray" name_id="desk_papertray_004" position="-3866.79 -1706.65 852.238" rotation="0 0 -0.292372 -0.956305" unit_id="101098"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="off_prop_officehigh_chair_deluxe_004" position="-3784.3 -1639.96 775" rotation="0 0 0 -1" unit_id="101099"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="gen_interactable_hack_computer_a_004" position="-3792.25 -1730.45 852.238" rotation="0 0 0 -1" unit_id="101100"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_keyboard/off_prop_appliance_keyboard" name_id="off_prop_appliance_keyboard_001" position="-3789.38 -1695.1 852.238" rotation="0 0 1 4.37114e-008" unit_id="101101"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_mouse" name_id="computer_mouse_005" position="-3825.03 -1693.84 852.238" rotation="0 0 1 4.37114e-008" unit_id="101102"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_chair_visitor/bnk_prop_office_chair_visitor" name_id="bnk_prop_office_chair_visitor_003" position="-3829.51 -1800.69 775" rotation="0 0 0.999848 -0.0174523" unit_id="101103"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_buisnesscard_spinner/bnk_prop_office_businesscard_spinner" name_id="bnk_prop_office_businesscard_spinner_001" position="-4920.07 -836.762 885.884" rotation="0 0 0.681998 -0.731354" unit_id="101104"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="off_prop_appliance_computer_003" position="-3840.02 -1702.47 774" rotation="0 0 0.999962 0.00872696" unit_id="101105"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/laptop/laptop" name_id="laptop_001" position="-4865.64 -1178.54 851.116" rotation="0 0 0.182236 -0.983255" unit_id="101106"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/wallclock/wallclock_01" name_id="wallclock_01_001" position="-3995.69 -1551.95 993.643" rotation="0 0 0 -1" unit_id="101107"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/wallclock/wallclock_01" name_id="wallclock_01_002" position="-4460.34 -1361.77 987.819" rotation="0 0 0.707107 -0.707107" unit_id="101108"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/shelfs/shelf_80deep_04" name_id="shelf_80deep_04_001" position="-5411.12 -1534.76 775" rotation="0 0 0 -1" unit_id="101109"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_flowervase/com_prop_flowervase" name_id="com_prop_flowervase_001" position="-5362.06 -1532.65 879" rotation="0 0 0 -1" unit_id="101110"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_phone/bnk_prop_phone" name_id="bnk_prop_phone_002" position="-5467.49 -1530.87 879" rotation="0 0 -0.207912 -0.978148" unit_id="101111"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/shelfs/shelf_bookpile_small" name_id="shelf_bookpile_small_001" position="-5362.85 -1535.38 839" rotation="0 0 0 -1" unit_id="101112"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/shelfs/shelf_bookpile_small" name_id="shelf_bookpile_small_002" position="-5457.89 -1533.18 799" rotation="0 0 0 -1" unit_id="101113"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_street_newspaper/str_prop_street_newspaper" name_id="str_prop_street_newspaper_001" position="-5410.51 -1521.03 879" rotation="0 0 0 -1" unit_id="101114"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_hallway_pictures/lxa_prop_hallway_picture_03" name_id="lxa_prop_hallway_picture_03_001" position="-4189.55 -1551.95 918.172" rotation="0 0 0 -1" unit_id="101115"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="off_prop_officehigh_chair_deluxe_005" position="-4207.42 -2341.87 775" rotation="0 0 -0.199368 -0.979925" unit_id="101116"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="off_prop_officehigh_chair_deluxe_006" position="-4616.97 -2166.03 778" rotation="0 0 0.948324 -0.317305" unit_id="101117"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="off_prop_officehigh_chair_deluxe_007" position="-5185.3 -2268.02 775" rotation="0 0 -0.267238 -0.96363" unit_id="101118"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="off_prop_officehigh_chair_deluxe_008" position="-5383.67 -2885.06 775" rotation="0 0 -0.224951 -0.97437" unit_id="101119"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="off_prop_officehigh_chair_deluxe_009" position="-4837.06 -1081.54 775" rotation="0 0 0.390731 -0.920505" unit_id="101120"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="off_prop_officehigh_chair_deluxe_010" position="-4840.17 -881.643 775" rotation="0 0 0.748956 -0.66262" unit_id="101121"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_desk/off_prop_officehigh_desk_dark_drawers" name_id="off_prop_officehigh_desk_dark_drawers_001" position="-4731.43 -2398.48 775" rotation="0 0 0 -1" unit_id="101122"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_lamp_wall/bnk_prop_office_lamp_wall" name_id="bnk_prop_office_lamp_wall_001" position="-4537.99 -2651.95 945.773" rotation="0 0 0.999848 0.0174522" unit_id="101123"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_filofax/bnk_prop_office_filofax" name_id="bnk_prop_office_filofax_001" position="-4224.63 -1721.26 852.238" rotation="0 0 0 -1" unit_id="101124"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/copy_machine/copy_machine_smuggle" name_id="copy_machine_smuggle_001" position="-4437.75 -2102.65 775" rotation="0 0 0 -1" unit_id="101125"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/coathanger/coathanger" name_id="coathanger_001" position="-5213.23 -883.025 775" rotation="0 0 0 -1" unit_id="101126"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/water/watercooler" name_id="watercooler_001" position="-4486.78 -1305.13 775" rotation="0 0 -0.71934 -0.694658" unit_id="101127"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/fan_table/fan_table" name_id="fan_table_001" position="-4141.78 -2018.7 853.238" rotation="0 0 0 -1" unit_id="101128"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/whiteboard/whiteboard_01" name_id="whiteboard_01_001" position="-4780.69 -2187.74 775" rotation="0 0 0.694658 -0.71934" unit_id="101129"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_wastebasket/bnk_prop_office_wastebasket" name_id="bnk_prop_office_wastebasket_001" position="-4492.91 -1008.48 775" rotation="0 0 0.909961 -0.414693" unit_id="101130"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="off_prop_appliance_computer_004" position="-4564.52 -825.243 775" rotation="0 0 0 -1" unit_id="101131"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_lamp_desk/bnk_prop_office_lamp_desk" name_id="bnk_prop_office_lamp_desk_002" position="-4597.65 -781.428 885.884" rotation="0 0 0 -1" unit_id="101132"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_books_professional_04" name_id="off_prop_officehigh_books_professional_04_001" position="-4808.69 -781.447 884.884" rotation="0 0 0 -1" unit_id="101133"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/stn_prop_office_filecabinet_a_01/stn_prop_office_filecabinet_a_01" name_id="stn_prop_office_filecabinet_a_01_001" position="-4508.27 -1468.81 774" rotation="0 0 0.725374 -0.688355" unit_id="101134"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/stn_prop_office_filecabinet_a_01/stn_prop_office_filecabinet_a_01" name_id="stn_prop_office_filecabinet_a_01_002" position="-4509.64 -1423.47 774" rotation="0 0 0.700909 -0.71325" unit_id="101135"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/stn_prop_office_filecabinet_a_01/stn_prop_office_filecabinet_a_01" name_id="stn_prop_office_filecabinet_a_01_003" position="-4511.14 -1375.69 774" rotation="0 0 0.700909 -0.71325" unit_id="101136"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="off_prop_officehigh_chair_deluxe_011" position="-4874.42 -1455.14 775" rotation="0 0 0.999962 0.00872657" unit_id="101137"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/air_prop_office_computer/air_prop_office_computer" name_id="air_prop_office_computer_001" position="-4860.85 -1347.55 852.159" rotation="0 0 0.707107 -0.707107" unit_id="101138"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_filofax/bnk_prop_office_filofax" name_id="bnk_prop_office_filofax_002" position="-4924.1 -1365.09 852.159" rotation="0 0 0 -1" unit_id="101139"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_lamp_desk/bnk_prop_office_lamp_desk" name_id="bnk_prop_office_lamp_desk_003" position="-4922.62 -1334.47 852.159" rotation="0 0 0 -1" unit_id="101140"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole_b" name_id="off_prop_officehigh_filebox_short_whole_b_001" position="-4732.02 -1340.09 852.159" rotation="0 0 0 -1" unit_id="101141"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole_b" name_id="off_prop_officehigh_filebox_short_whole_b_002" position="-4732.36 -1374.31 852.159" rotation="0 0 0 -1" unit_id="101142"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole_b" name_id="off_prop_officehigh_filebox_short_whole_b_003" position="-4731.58 -1359.26 880.209" rotation="0 0 0.71325 -0.700909" unit_id="101143"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_phone/bnk_prop_phone" name_id="bnk_prop_phone_003" position="-4792.36 -1359.68 852.159" rotation="0 0 0 -1" unit_id="101144"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_wastebasket/bnk_prop_office_wastebasket" name_id="bnk_prop_office_wastebasket_002" position="-4781.46 -1495.19 775" rotation="0 0 0.999657 -0.026177" unit_id="101145"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack_03" name_id="off_prop_officehigh_paper_stack_03_001" position="-4563.54 -1718.1 852.238" rotation="0 0 0 -1" unit_id="101146"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" name_id="penpaper_001" position="-4493.51 -1714.02 852.238" rotation="0 0 0 -1" unit_id="101147"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4453.81 -1724.02 852.238" _prev_rot="0 0 0.857167 -0.515038" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_teller_pen/bnk_prop_teller_pen" name_id="bnk_prop_teller_pen_003" position="-4453.81 -1724.02 852.238" rotation="0 0 0.857167 -0.515038" unit_id="101148"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_appliance_conference_phone/bnk_prop_appliance_conference_phone" name_id="bnk_prop_appliance_conference_phone_002" position="-4385.63 -1615.8 848.238" rotation="0 0 0.979925 -0.199368" unit_id="101149"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/gym/stn_prop_fan_ceiling/stn_prop_fan_ceiling" name_id="stn_prop_fan_ceiling_001" position="-4982.55 -2252.83 1075" rotation="0 0 0 -1" unit_id="101150"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/desert/des_prop_cardboardbox/des_prop_cardboardbox" name_id="des_prop_cardboardbox_001" position="-3711.63 -1834.32 810" rotation="0 0 0 -1" unit_id="101151"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/desert/des_prop_cardboardbox/des_prop_cardboardbox" name_id="des_prop_cardboardbox_002" position="-3763.3 -1799.63 820" rotation="0 0 0 -1" unit_id="101152"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/train/tra_cover_cardboardbox/tra_cover_cardboardbox" name_id="tra_cover_cardboardbox_001" position="-3699.54 -1917.41 775" rotation="0 0 0 -1" unit_id="101153"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/train/tra_cover_cardboardbox/tra_cover_cardboardbox" name_id="tra_cover_cardboardbox_002" position="-3732 -1874.83 775" rotation="0 0 0 -1" unit_id="101154"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/desert/des_prop_cardboardbox/des_prop_cardboardbox" name_id="des_prop_cardboardbox_003" position="-3707.36 -1790.83 775" rotation="0 0 0 -1" unit_id="101155"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/desert/des_prop_cardboardbox/des_prop_cardboardbox" name_id="des_prop_cardboardbox_004" position="-3704.35 -1833.66 775" rotation="0 0 0 -1" unit_id="101156"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/desert/des_prop_cardboardbox/des_prop_cardboardbox" name_id="des_prop_cardboardbox_005" position="-3754.8 -1792.75 775" rotation="0 0 0 -1" unit_id="101157"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/desert/des_prop_cardboardbox/des_prop_cardboardbox" name_id="des_prop_cardboardbox_006" position="-3707.52 -1789.9 815.572" rotation="0 0 0 -1" unit_id="101158"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/desert/des_prop_cardboardbox/des_prop_cardboardbox" name_id="des_prop_cardboardbox_007" position="-3749.21 -1835.67 775" rotation="0 0 0 -1" unit_id="101159"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/desert/des_prop_cardboardbox/des_prop_cardboardbox" name_id="des_prop_cardboardbox_008" position="-3702.41 -1876.37 775" rotation="0 0 0 -1" unit_id="101160"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/train/tra_cover_cardboardbox/tra_cover_cardboardbox" name_id="tra_cover_cardboardbox_003" position="-3733.06 -1801.24 860.572" rotation="0 0 0 -1" unit_id="101161"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_security_fusebox/bnk_prop_security_fusebox" name_id="bnk_prop_security_fusebox_001" position="-4460.34 -819.469 924.01" rotation="0 0 0.999962 -0.00872644" unit_id="101162"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack_01" name_id="off_prop_officehigh_paper_stack_01_001" position="-4529.64 -783.938 885.884" rotation="0 0 0 -1" unit_id="101163"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack_03" name_id="off_prop_officehigh_paper_stack_03_002" position="-4913.5 -1126.81 885.884" rotation="0 0 0 -1" unit_id="101164"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack_03" name_id="off_prop_officehigh_paper_stack_03_003" position="-4892.14 -921.406 851.116" rotation="0 0 0 -1" unit_id="101165"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/briefcase/briefcase1" name_id="briefcase1_001" position="-4898.34 -1016.82 851.116" rotation="0 0 0.999962 0.00872665" unit_id="101166"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/prop_filebox_01" name_id="prop_filebox_01_001" position="-4485.25 -1412.37 849.267" rotation="0 0 0 -1" unit_id="101167"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/prop_filebox_01" name_id="prop_filebox_01_002" position="-4484.1 -1461.46 847.757" rotation="0 0 -0.707107 -0.707107" unit_id="101168"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack_02" name_id="off_prop_officehigh_paper_stack_02_001" position="-4488.71 -1426.62 885.767" rotation="0 0 0 -1" unit_id="101169"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_chair_visitor/bnk_prop_office_chair_visitor" name_id="bnk_prop_office_chair_visitor_004" position="-4196.12 -1796.68 775" rotation="0 0 0.999962 0.00872665" unit_id="101170"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="gen_interactable_hack_computer_a_005" position="-4287.7 -1997.96 853.238" rotation="0 0 0.930418 -0.366501" unit_id="101171"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/yacht/flowers/lxy_prop_flower_vase" name_id="lxy_prop_flower_vase_002" position="-4278.62 -2177.56 853.238" rotation="0 0 0 -1" unit_id="101172"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/filecabinet/prop_filecabinet_02" name_id="prop_filecabinet_02_001" position="-4093.8 -2212.95 775" rotation="0 0 0.999848 0.0174525" unit_id="101173"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack_01" name_id="off_prop_officehigh_paper_stack_01_002" position="-4115.55 -2173.4 852.614" rotation="0 0 0 -1" unit_id="101174"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_phone_02" name_id="desk_phone_02_003" position="-4290.63 -2124.22 853.238" rotation="0 0 0.559193 -0.829038" unit_id="101175"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/clipboard01/clipboard_paper" name_id="clipboard_paper_005" position="-4301.2 -2062.27 853.238" rotation="0 0 0.207912 -0.978148" unit_id="101176"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/binders/binder_open_02" name_id="binder_open_02_001" position="-4189.96 -2002.46 853.238" rotation="0 0 0 -1" unit_id="101177"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack_03" name_id="off_prop_officehigh_paper_stack_03_004" position="-4475.88 -2098.26 874.716" rotation="0 0 0 -1" unit_id="101178"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/hotel/flower_pot/flower_pot_big" name_id="flower_pot_big_003" position="-4688.49 -2353.22 775" rotation="0 0 0 -1" unit_id="101179"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="gen_interactable_hack_computer_a_006" position="-4699.77 -2123.11 852.238" rotation="0 0 0.829038 -0.559193" unit_id="101180"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="gen_interactable_hack_computer_a_007" position="-4654.64 -2081.32 852.238" rotation="0 0 0.989016 -0.147809" unit_id="101181"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_keyboard/off_prop_appliance_keyboard" name_id="off_prop_appliance_keyboard_002" position="-4667.58 -2115.5 852.238" rotation="0 0 -0.390731 -0.920505" unit_id="101182"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_mouse" name_id="computer_mouse_004" position="-4630.08 -2105.58 852.238" rotation="0 0 0 -1" unit_id="101183"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="gen_interactable_hack_computer_a_008" position="-4706.26 -2279.2 852.238" rotation="0 0 0.594823 -0.803857" unit_id="101184"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_keyboard/off_prop_appliance_keyboard" name_id="off_prop_appliance_keyboard_003" position="-4672.96 -2268.84 858.238" rotation="0 0 -0.771625 -0.636078" unit_id="101185"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_mouse" name_id="computer_mouse_006" position="-4679.32 -2231.3 852.238" rotation="0 0 -0.814116 -0.580703" unit_id="101186"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="off_prop_officehigh_chair_deluxe_012" position="-4599.03 -2267.94 783.515" rotation="0 0 0.62932 -0.777146" unit_id="101187"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/fan_table/fan_table" name_id="fan_table_002" position="-4703.54 -2179.34 852.238" rotation="0 0 -0.642788 -0.766044" unit_id="101188"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_appliance_conference_phone/bnk_prop_appliance_conference_phone" name_id="bnk_prop_appliance_conference_phone_003" position="-4595.07 -2091.78 852.238" rotation="0 0 0.731354 -0.681998" unit_id="101189"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_phone_02" name_id="desk_phone_02_004" position="-4702.26 -2220.87 852.238" rotation="0 0 0.843391 -0.5373" unit_id="101190"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_papertray" name_id="desk_papertray_005" position="-4553.96 -2107.37 852.238" rotation="0 0 0.891007 -0.453991" unit_id="101191"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_teller_pen/bnk_prop_teller_pen" name_id="bnk_prop_teller_pen_004" position="-4676.7 -2193.19 852.238" rotation="0 0 0.333807 -0.942641" unit_id="101192"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="gen_interactable_hack_computer_a_009" position="-4133.46 -2409.61 852.159" rotation="0 0 -0.398749 -0.91706" unit_id="101193"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="gen_interactable_hack_computer_a_010" position="-4187.63 -2428 852.159" rotation="0 0 0.0174524 -0.999848" unit_id="101194"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_keyboard/off_prop_appliance_keyboard" name_id="off_prop_appliance_keyboard_004" position="-4170.47 -2401.18 852.159" rotation="0 0 0.99863 -0.0523359" unit_id="101195"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_mouse" name_id="computer_mouse_007" position="-4208.81 -2402.39 852.159" rotation="0 0 0.996195 -0.0871557" unit_id="101196"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/fan_table/fan_table" name_id="fan_table_003" position="-4239.2 -2424.01 852.159" rotation="0 0 0.998135 0.0610485" unit_id="101197"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/prop_filebox_01" name_id="prop_filebox_01_003" position="-4324.93 -2417.52 852.159" rotation="0 0 0 -1" unit_id="101198"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack_03" name_id="off_prop_officehigh_paper_stack_03_005" position="-4325.68 -2414.9 888.659" rotation="0 0 0 -1" unit_id="101199"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_penstand_calculator/bnk_prop_office_penstand_calculator" name_id="bnk_prop_office_penstand_calculator_001" position="-4276.66 -2410.07 852.159" rotation="0 0 0.97437 0.224951" unit_id="101200"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/yacht/flowers/lxy_prop_flower_vase" name_id="lxy_prop_flower_vase_003" position="-4279.83 -2439.68 852.159" rotation="0 0 0 -1" unit_id="101201"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="gen_interactable_hack_computer_a_011" position="-5173.69 -2423.28 852.238" rotation="0 0 0 -1" unit_id="101202"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="gen_interactable_hack_computer_a_012" position="-5230.84 -2404.69 852.238" rotation="0 0 0.325568 -0.945519" unit_id="101203"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_keyboard/off_prop_appliance_keyboard" name_id="off_prop_appliance_keyboard_005" position="-5175.19 -2391.33 852.238" rotation="0 0 0.999848 0.0174525" unit_id="101204"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_mouse" name_id="computer_mouse_008" position="-5214.57 -2386.27 852.238" rotation="0 0 0.989016 -0.147809" unit_id="101205"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/fan_table/fan_table" name_id="fan_table_004" position="-5125.62 -2395.79 852.238" rotation="0 0 0.866025 -0.5" unit_id="101206"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/binders/binder_open_02" name_id="binder_open_02_002" position="-5098.23 -2252.67 852.238" rotation="0 0 0.688355 -0.725374" unit_id="101207"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_lamp_desk/bnk_prop_office_lamp_desk" name_id="bnk_prop_office_lamp_desk_004" position="-5068.04 -2209.48 852.238" rotation="0 0 0.366501 -0.930418" unit_id="101208"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_teller_pen/bnk_prop_teller_pen" name_id="bnk_prop_teller_pen_005" position="-5093.95 -2305.51 852.238" rotation="0 0 0.97437 -0.224951" unit_id="101209"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_appliance_conference_phone/bnk_prop_appliance_conference_phone" name_id="bnk_prop_appliance_conference_phone_004" position="-5099.48 -2363.04 852.238" rotation="0 0 0.920505 0.390731" unit_id="101210"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/prop_filebox_01" name_id="prop_filebox_01_004" position="-5085.41 -2411.51 852.238" rotation="0 0 0 -1" unit_id="101211"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/prop_filebox_01" name_id="prop_filebox_01_005" position="-5084.57 -2410.79 888.738" rotation="0 0 0 -1" unit_id="101212"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/filecabinet/prop_filecabinet_01" name_id="prop_filecabinet_01_001" position="-5243.64 -1999.9 775" rotation="0 0 -0.707107 -0.707107" unit_id="101213"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/filecabinet/prop_filecabinet_01" name_id="prop_filecabinet_01_002" position="-5243.34 -2058.4 775" rotation="0 0 -0.700909 -0.71325" unit_id="101214"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/filecabinet/prop_filecabinet_02" name_id="prop_filecabinet_02_002" position="-5244.65 -2117.23 775" rotation="0 0 -0.700909 -0.71325" unit_id="101215"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_flowervase/com_prop_flowervase" name_id="com_prop_flowervase_003" position="-5205.93 -2088.75 852.614" rotation="0 0 0 -1" unit_id="101216"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack_01" name_id="off_prop_officehigh_paper_stack_01_003" position="-5201.94 -2023.91 915.5" rotation="0 0 0 -1" unit_id="101217"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes_1" name_id="com_prop_janitor_boxes_1_001" position="-4884.63 -2056.58 775" rotation="0 0 0 -1" unit_id="101218"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes" name_id="com_prop_janitor_boxes_001" position="-4807.98 -2100.19 775" rotation="0 0 0 -1" unit_id="101219"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes" name_id="com_prop_janitor_boxes_002" position="-4807.7 -2131.53 775" rotation="0 0 0 -1" unit_id="101220"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes" name_id="com_prop_janitor_boxes_003" position="-4843.31 -2099.1 775" rotation="0 0 0 -1" unit_id="101221"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes" name_id="com_prop_janitor_boxes_004" position="-4824.83 -2098.89 805.5" rotation="0 0 0 -1" unit_id="101222"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes" name_id="com_prop_janitor_boxes_005" position="-4808.2 -2130.03 805.409" rotation="0 0 0 -1" unit_id="101223"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes" name_id="com_prop_janitor_boxes_006" position="-4805.71 -2304.67 775" rotation="0 0 0 -1" unit_id="101224"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes" name_id="com_prop_janitor_boxes_007" position="-4838.54 -2301.01 775" rotation="0 0 0 -1" unit_id="101225"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes" name_id="com_prop_janitor_boxes_008" position="-4812.7 -2268.14 775" rotation="0 0 0 -1" unit_id="101226"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes" name_id="com_prop_janitor_boxes_009" position="-4818.98 -2286.97 805.5" rotation="0 0 0 -1" unit_id="101227"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole" name_id="off_prop_officehigh_filebox_short_whole_001" position="-4802.07 -2220.76 775" rotation="0 0 0 -1" unit_id="101228"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole" name_id="off_prop_officehigh_filebox_short_whole_002" position="-4799.74 -2190.57 775" rotation="0 0 0 -1" unit_id="101229"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole" name_id="off_prop_officehigh_filebox_short_whole_003" position="-4805.61 -2207.15 803.05" rotation="0 0 0 -1" unit_id="101230"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_base" name_id="off_prop_officehigh_filebox_short_base_001" position="-4826.48 -2125.81 775" rotation="0 0 -0.85264 -0.522498" unit_id="101231"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_folder_holder_01" name_id="off_prop_officehigh_folder_holder_01_001" position="-5198.51 -1967.08 915.5" rotation="0 0 0.165048 -0.986286" unit_id="101232"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/a4paperbox_top_01" name_id="a4paperbox_top_01_001" position="-4830.94 -2124.75 777.827" rotation="-0.469251 0.152372 0.333895 -0.803181" unit_id="101233"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole_b" name_id="off_prop_officehigh_filebox_short_whole_b_004" position="-4794.46 -2157.78 775" rotation="0 0 0 -1" unit_id="101234"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole_b" name_id="off_prop_officehigh_filebox_short_whole_b_005" position="-4803.85 -2165.33 799.05" rotation="0 0 0.608762 -0.793353" unit_id="101235"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="off_prop_appliance_computer_005" position="-4284.65 -2404.88 775" rotation="0 0 0.999962 -0.00872676" unit_id="101236"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="off_prop_appliance_computer_006" position="-4682.25 -2232.48 775" rotation="0 0 -0.707107 -0.707107" unit_id="101237"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="off_prop_appliance_computer_007" position="-4605.49 -2100.03 775" rotation="0 0 0 -1" unit_id="101238"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="off_prop_appliance_computer_008" position="-5181.94 -2393.74 775" rotation="0 0 0.999962 -0.00872665" unit_id="101239"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="off_prop_appliance_computer_009" position="-4199.56 -2019.42 775" rotation="0 0 0 -1" unit_id="101240"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="off_prop_appliance_computer_01" position="-5392.86 -2969.46 775" rotation="0 0 0.999657 -0.0261769" unit_id="101241"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="gen_interactable_hack_computer_a_013" position="-5359.58 -3001.17 852.238" rotation="0 0 0 -1" unit_id="101242"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="gen_interactable_hack_computer_a_014" position="-5304.7 -2979.97 852.238" rotation="0 0 -0.374607 -0.927184" unit_id="101243"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_keyboard/off_prop_appliance_keyboard" name_id="off_prop_appliance_keyboard_006" position="-5334.91 -2969.98 852.238" rotation="0 0 0.984808 -0.173648" unit_id="101244"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_mouse" name_id="computer_mouse_009" position="-5373.08 -2972.33 852.238" rotation="0 0 0.999848 0.0174523" unit_id="101245"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_phone_02" name_id="desk_phone_02_005" position="-5423.84 -2979.43 852.238" rotation="0 0 0.258819 -0.965926" unit_id="101246"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/fan_table/fan_table" name_id="fan_table_005" position="-5298.58 -2914.59 852.238" rotation="0 0 0.414693 -0.909961" unit_id="101247"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" name_id="penpaper_002" position="-5306.75 -2858.41 852.238" rotation="0 0 0 -1" unit_id="101248"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/a4paperbox_02" name_id="a4paperbox_02_003" position="-5314.91 -2785.45 852.238" rotation="0 0 0 -1" unit_id="101249"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/a4paperbox_02" name_id="a4paperbox_02_004" position="-5286.54 -2824.21 852.238" rotation="0 0 0.824126 -0.566406" unit_id="101250"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_office_lamp_desk/bnk_prop_office_lamp_desk" name_id="bnk_prop_office_lamp_desk_005" position="-5284.45 -2888.21 852.238" rotation="-0 -0 0.760406 -0.649448" unit_id="101251"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="manager3_chair" position="-3749.95 -2158.93 775" rotation="0 0 0.902585 -0.430511" unit_id="101252"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="manager3_monitor" position="-3789.8 -2073.66 852.24" rotation="0 0 0.984808 -0.173648" unit_id="101253"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="manager3_monitor" position="-3833.46 -2112.14 852.24" rotation="0 0 0.857167 -0.515038" unit_id="101254"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_keyboard/off_prop_appliance_keyboard" name_id="manager3_keyboard" position="-3801.29 -2108.68 852.24" rotation="0 0 -0.406737 -0.913545" unit_id="101255"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_mouse" name_id="manager3_mouse" position="-3762.06 -2094.56 852.24" rotation="-0 0 -0 -1" unit_id="101256"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/prop_filebox_01" name_id="manager3_filebox" position="-3685.69 -2085.7 852.24" rotation="-0 0 -0 -1" unit_id="101257"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/prop_filebox_01" name_id="manager3_filebox" position="-3687.3 -2087.39 888.74" rotation="-0 0 -0 -1" unit_id="101258"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/world/props/office/fan_table/fan_table" name_id="manager3_fan" position="-3729.53 -2079.59 852.24" rotation="-0 0 -0 -1" unit_id="101259"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/bnk_prop_office_lamp_desk/bnk_prop_office_lamp_desk" name_id="manager3_lamp" position="-3845.55 -2168.58 852.24" rotation="0 0 -0.515038 -0.857167" unit_id="101260"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_livingroom/penholder/penholder" name_id="manager3_penholder" position="-3846.33 -2210.06 852.24" rotation="0 0 -0.656059 -0.75471" unit_id="101261"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" name_id="manager3_penpaper" position="-3841.39 -2260.06 852.24" rotation="0 0 0.987688 0.156434" unit_id="101262"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/bnk_prop_office_chair_visitor/bnk_prop_office_chair_visitor" name_id="manager3_chair" position="-3913.42 -2239.03 783.52" rotation="0 0 -0.688355 -0.725374" unit_id="101263"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/bnk_prop_office_chair_visitor/bnk_prop_office_chair_visitor" name_id="manager3_chair" position="-3908.43 -2148.53 783.52" rotation="0 0 -0.587785 -0.809017" unit_id="101264"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="manager3_computer" position="-3738 -2095.74 775" rotation="-0 0 -0 -1" unit_id="101265"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="manager3_ computer" position="-3730.8 -2603.64 775" rotation="0 0 0.999962 0.00872644" unit_id="101266"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="manager3_monitor" position="-3688.76 -2620.65 852.24" rotation="0 0 -0.34202 -0.939693" unit_id="101267"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="manager3_monitor" position="-3748.33 -2634.47 852.24" rotation="-0 0 -0 -1" unit_id="101268"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_keyboard/off_prop_appliance_keyboard" name_id="manager3_keyboard" position="-3725.63 -2602.52 852.24" rotation="0 0 0.999962 -0.00872644" unit_id="101269"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_mouse" name_id="manager3_mouse" position="-3762.09 -2602.34 852.24" rotation="0 0 0.999048 -0.0436192" unit_id="101270"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/bnk_prop_office_lamp_desk/bnk_prop_office_lamp_desk" name_id="manager3_lamp" position="-3819.78 -2617.74 852.24" rotation="0 0 0.970296 0.241922" unit_id="101271"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" name_id="manager3_penpaper" position="-3836.87 -2529.42 852.24" rotation="0 0 0.992546 0.121869" unit_id="101272"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_teller_pen/bnk_prop_teller_pen" name_id="manager3_teller_pen" position="-3840.73 -2572.54 852.24" rotation="0 0 -0.559193 -0.829038" unit_id="101273"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_papertray" name_id="manager3_papertray" position="-3806.96 -2432.86 852.24" rotation="0 0 0.71325 -0.700909" unit_id="101274"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_papertray" name_id="manager3_papertray" position="-3835.96 -2432.7 852.24" rotation="0 0 0.707107 -0.707107" unit_id="101275"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/bnk_prop_office_chair_visitor/bnk_prop_office_chair_visitor" name_id="manager3_chair" position="-3917.6 -2523.51 775" rotation="0 0 -0.669131 -0.743145" unit_id="101276"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/bnk_prop_office_chair_visitor/bnk_prop_office_chair_visitor" name_id="manager3_chair" position="-3909.84 -2432.97 774" rotation="0 0 -0.615661 -0.788011" unit_id="101277"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="manager3_ chair" position="-3727.14 -2521.55 775" rotation="-0 0 -0 -1" unit_id="101278"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="manager1_chair" position="-5369.8 -2021.03 775" rotation="-0 0 -0 -1" unit_id="101279"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="manager1_monitor" position="-5329.06 -2090.37 852.16" rotation="0 0 -0.258819 -0.965926" unit_id="101280"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="manager1_monitor" position="-5389.05 -2094.68 852.16" rotation="0 0 0.147809 -0.989016" unit_id="101281"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_keyboard/off_prop_appliance_keyboard" name_id="manager1_keyboard" position="-5357.54 -2071.99 851.16" rotation="0 0 0.999848 0.0174523" unit_id="101282"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_mouse" name_id="manager1_mouse" position="-5392.98 -2070.6 852.16" rotation="0 0 0.998135 -0.0610485" unit_id="101283"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/bnk_prop_office_lamp_desk/bnk_prop_office_lamp_desk" name_id="manager1_lamp" position="-5439.41 -2096.01 852.16" rotation="0 0 0.930418 0.366501" unit_id="101284"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/world/props/office/fan_table/fan_table" name_id="manager1_fan" position="-5484.26 -2087.43 852.16" rotation="0 0 0.91706 0.398749" unit_id="101285"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/bnk_prop_office_chair_visitor/bnk_prop_office_chair_visitor" name_id="manager1_ chair" position="-5435.68 -2170.02 775" rotation="0 0 0.999391 0.0348995" unit_id="101286"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="manager2_chair" position="-6131.81 -2633.64 775" rotation="0 0 0.92388 -0.382683" unit_id="101287"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="manager2_chair" position="-6137.07 -2902.72 775" rotation="0 0 0.317305 -0.948324" unit_id="101288"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="manager1_computer" position="-5447.22 -2083.09 775" rotation="0 0 0.999962 -0.00872644" unit_id="101289"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="manager2_computer" position="-6124.15 -2554.27 775" rotation="-0 0 -0 -1" unit_id="101290"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="manager2_computer" position="-6205.02 -2843.98 775" rotation="0 0 -0.71934 -0.694658" unit_id="101291"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="manager2_monitor" position="-6232.96 -2600.02 852.24" rotation="0 0 0.71325 -0.700909" unit_id="101292"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="manager2_monitor" position="-6215.79 -2546.88 852.24" rotation="0 0 0.906308 -0.422618" unit_id="101293"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="manager2_monitor" position="-6165.02 -2526.45 852.24" rotation="0 0 1 -4.37114e-008" unit_id="101294"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_keyboard/off_prop_appliance_keyboard" name_id="manager2_keyboard" position="-6195.02 -2569.72 852.24" rotation="0 0 -0.438371 -0.898794" unit_id="101295"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_mouse" name_id="manager2_mouse" position="-6160.97 -2557.46 852.24" rotation="-0 0 -0 -1" unit_id="101296"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/world/props/office/fan_table/fan_table" name_id="manager2_fan" position="-6098.09 -2540.81 852.24" rotation="-0 0 -0 -1" unit_id="101297"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/prop_filebox_01" name_id="manager2_filebox" position="-6213.51 -2725.49 852.24" rotation="-0 0 -0 -1" unit_id="101298"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/prop_filebox_01" name_id="manager2_filebox" position="-6214.53 -2676.91 852.24" rotation="0 0 -0.688355 -0.725374" unit_id="101299"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/prop_filebox_01" name_id="manager2_filebox" position="-6211.52 -2712.31 888.74" rotation="-0 0 -0 -1" unit_id="101300"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="manager2_monitor" position="-6103.39 -3007.22 852.24" rotation="-0 0 -0 -1" unit_id="101301"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="manager2_monitor" position="-6159.78 -3006.74 852.24" rotation="0 0 0.0174524 -0.999848" unit_id="101302"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="manager2_monitor" position="-6214.65 -2990.52 852.24" rotation="0 0 0.267238 -0.96363" unit_id="101303"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="manager2_monitor" position="-6241.71 -2943.52 851.24" rotation="0 0 0.694658 -0.71934" unit_id="101304"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" name_id="manager2_monitor" position="-6241.27 -2886.99 852.24" rotation="0 0 0.71325 -0.700909" unit_id="101305"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_keyboard/off_prop_appliance_keyboard" name_id="manager2_keyboard" position="-6190.09 -2970.09 852.24" rotation="0 0 0.961262 0.275637" unit_id="101306"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_mouse" name_id="manager2_mouse" position="-6205.94 -2933.96 852.24" rotation="0 0 0.906308 0.422618" unit_id="101307"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/world/props/office/fan_table/fan_table" name_id="manager2_fan" position="-6065.84 -2977.96 852.24" rotation="0 0 0.91706 -0.398749" unit_id="101308"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" name_id="manager2_penpaper" position="-6204.04 -2864.48 852.24" rotation="-0 0 -0 -1" unit_id="101309"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_teller_pen/bnk_prop_teller_pen" name_id="manager2_teller_pen" position="-6201.87 -2900.39 852.24" rotation="0 0 0.477159 -0.878817" unit_id="101310"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack_01" name_id="manager2_paperstack" position="-6212.58 -2808.93 852.24" rotation="-0 0 -0 -1" unit_id="101311"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/hospital_watercooler/hospital_watercooler" name_id="hospital_watercooler_001" position="-5269.24 -1878.67 775" rotation="0 0 0 -1" unit_id="101312"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/bnk/bnk_int_seat_triple" name_id="bnk_int_seat_triple_001" position="-5483.7 -1873.63 775" rotation="0 0 1 4.37114e-008" unit_id="101313"/>
 		</table>
 	</statics>
 	<values>
