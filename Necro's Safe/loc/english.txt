@@ -1,2 +1,3 @@
 {
+	"hud_hold_turn_of_gas" : "Hold $BTN_INTERACT to turn on the gas"
 }
