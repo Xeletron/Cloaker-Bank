@@ -1,4 +1,4 @@
-<table name="Necro's Safe">
+f<table name="Necro's Safe">
 	<Localization default="english.txt" directory="loc"/>
 	<narrative briefing_event="" contact="custom" id="Necro's Safe">
 		<chain>
