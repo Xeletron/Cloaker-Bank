@@ -86,17 +86,18 @@
 		<packages>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
 			<value_node value="levels/narratives/e_election_day/stage_3/new_mall/new_mall"/>
-			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
-			<value_node value="levels/narratives/bain/big/world"/>
 			<value_node value="levels/narratives/e_election_day/stage_3/world/world"/>
 			<value_node value="levels/narratives/armadillo/arm_hcm/world/world"/>
 			<value_node value="levels/narratives/e_election_day/stage_3/world"/>
-			<value_node value="levels/narratives/h_firestarter/stage_2/world/world"/>
 			<value_node value="levels/instances/unique/hox_fbi_armory/world/world"/>
 			<value_node value="levels/narratives/classics/red2/world/world"/>
 			<value_node value="levels/narratives/bain/big/world/world"/>
 			<value_node value="levels/narratives/dentist/mia/stage2/world/world"/>
-			<value_node value="levels/instances/unique/san_box_tree001/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_2/world/world"/>
+			<value_node value="levels/narratives/bain/help/world_sounds"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
+			<value_node value="levels/narratives/bain/big/world"/>
+			<value_node value="levels/instances/unique/help/prison_train/world_sounds"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

@@ -1,3 +1,4 @@
 {
-	"hud_hold_turn_of_gas" : "Hold $BTN_INTERACT to turn on the gas"
+	"hud_hold_turn_of_gas"	:	"Hold $BTN_INTERACT to turn on the gas",
+	"heist_clk_bank_name"	:	"Hájszt_céelká_bank_ném"
 }
