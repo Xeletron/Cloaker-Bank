@@ -98,6 +98,7 @@
 			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
 			<value_node value="levels/narratives/bain/big/world"/>
 			<value_node value="levels/instances/unique/help/prison_train/world_sounds"/>
+			<value_node value="packages/narr_red2"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
