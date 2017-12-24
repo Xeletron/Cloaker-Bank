@@ -1931,7 +1931,7 @@
 			<unit_data _prev_pos="-1850 725 290" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="-2805 1775 290" local_rot="0 0 -1 4.37114e-008" name="units/payday2/architecture/com_int_election/com_int_election_wall_shop_a" name_id="com_int_election_wall_shop_a_007" position="-1345 555 290" rotation="0 0 1 -4.37114e-008" unit_id="100156"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1350 725 290" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="-2305 1775 290" local_rot="0 0 -1 4.37114e-008" name="units/payday2/architecture/com_int_election/com_int_election_wall_shop_a" name_id="com_int_election_wall_shop_a_008" position="-845 555 290" rotation="0 0 1 -4.37114e-008" unit_id="100215"/>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/com_int_election/com_int_election_wall_shop_a" name_id="com_int_election_wall_shop_a_008" position="-845 555 290" rotation="0 0 1 -4.37114e-008" unit_id="100215"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-855 725 290" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="-1810 1775 290" local_rot="0 0 -1 4.37114e-008" name="units/payday2/architecture/com_int_election/com_int_election_wall_shop_b" name_id="com_int_election_wall_shop_b_012" position="-350 555 290" rotation="0 0 1 -4.37114e-008" unit_id="100211"/>
@@ -2291,7 +2291,7 @@
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/world/props/bank/paintings/suburbia_painting_35" name_id="suburbia_painting_35_001" position="-4095 -2085 940" rotation="-0.5 0.5 -0.5 -0.5" unit_id="100748"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1397 735 320" _prev_rot="0 0 0 -1" continent="world" local_pos="-2352 1785 320" local_rot="0 0 0 1" mesh_variation="light_red_on_black" name="units/payday2/props/gen_prop_security_queue_counter/gen_prop_security_queue_counter" name_id="gen_prop_security_queue_counter_001" position="-892 565 320" rotation="0 0 0 -1" unit_id="100871"/>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="light_red_on_black" name="units/payday2/props/gen_prop_security_queue_counter/gen_prop_security_queue_counter" name_id="gen_prop_security_queue_counter_001" position="-892 565 320" rotation="0 0 0 -1" unit_id="100871"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1397 -1555 320" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="-2352 -505 320" local_rot="0 0 -1 4.37114e-008" mesh_variation="light_red_on_black" name="units/payday2/props/gen_prop_security_queue_counter/gen_prop_security_queue_counter" name_id="gen_prop_security_queue_counter_002" position="-892 -1725 320" rotation="0 0 1 -4.37114e-008" unit_id="100872"/>
@@ -4391,13 +4391,13 @@
 			<unit_data _prev_pos="-3885.96 -3859.65 -351" _prev_rot="0.5 -0.5 0.5 -0.5" continent="world" local_pos="-4840.96 -2809.65 -351" local_rot="-0.5 0.5 -0.5 0.5" name="units/world/props/apartment/vent_tunnel/vent_tunnel_straight_x2" name_id="vent_tunnel_straight_x2_003" position="-3380.96 -4029.65 -351" rotation="0.5 -0.5 0.5 -0.5" unit_id="101557"/>
 		</table>
 		<table>
-			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lcm_prop_rooftop/lcm_prop_rooftop_vent" name_id="basementL_vent004" position="-2800 -4591 -570" rotation="0 0 1 -4.37114e-008" unit_id="101590"/>
+			<unit_data _prev_pos="-2790 -4591 -570" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="-55 -17 -60" local_rot="0 0 -1 4.37114e-008" name="units/payday2/props/lcm_prop_rooftop/lcm_prop_rooftop_vent" name_id="basementL_vent004" position="-2690 -4591 -570" rotation="0 0 1 -4.37114e-008" unit_id="101590"/>
 		</table>
 		<table>
-			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/payday2/props/gen_prop_knockout_gas_canister/gen_prop_knockout_gas_canister" name_id="basementL_gas004" position="-2721.78 -4578.87 -591" rotation="0 0 0.707107 -0.707107" unit_id="101592"/>
+			<unit_data _prev_pos="-2711.78 -4578.87 -591" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="23.22 -4.87012 -81" local_rot="0 0 -0.707107 0.707107" mesh_variation="disable_interaction" name="units/payday2/props/gen_prop_knockout_gas_canister/gen_prop_knockout_gas_canister" name_id="basementL_gas004" position="-2611.78 -4578.87 -591" rotation="0 0 0.707107 -0.707107" unit_id="101592"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2745.96 -4639.65 -591" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/apartment/vent_tunnel/vent_tunnel_straight_x2" name_id="vent_tunnel_straight_x2_005" position="-2745.96 -4639.65 -591" rotation="0.5 -0.5 -0.5 -0.5" unit_id="101593"/>
+			<unit_data _prev_pos="-2735.96 -4639.65 -591" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="world" local_pos="-0.959961 -65.6499 -81" local_rot="-0.5 0.5 0.5 0.5" name="units/world/props/apartment/vent_tunnel/vent_tunnel_straight_x2" name_id="vent_tunnel_straight_x2_005" position="-2635.96 -4639.65 -591" rotation="0.5 -0.5 -0.5 -0.5" unit_id="101593"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3149.74 -4178.08 -301" _prev_rot="-1.31134e-007 1 -4.37114e-008 -1.91068e-015" continent="world" local_pos="-4104.74 -3128.08 -301" local_rot="1.31134e-007 -1 4.37114e-008 1.91068e-015" name="units/payday2/architecture/com_int_basement/com_int_basement_floor_a_2x2m_clean" name_id="com_int_basement_floor_a_2x2m_clean_033" position="-2644.74 -4348.08 -301" rotation="-1.31134e-007 1 -4.37114e-008 -1.91068e-015" unit_id="101525"/>
@@ -6689,7 +6689,7 @@
 			<unit_data _prev_pos="-4034.74 1991.92 -596" _prev_rot="0 0 1 1.31134e-007" continent="world" local_pos="-400 215 -296" local_rot="-1 0 4.23516e-022 4.37114e-008" name="units/payday2/architecture/com_int_basement/com_int_basement_floor_a_2x2m_clean" name_id="com_int_basement_floor_a_2x2m_clean_362" position="-4034.74 1791.92 -596" rotation="0 0 1 1.31134e-007" unit_id="102232"/>
 		</table>
 		<table>
-			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/com_prop_election_elevator_vent/com_prop_election_elevator_vent" name_id="com_prop_election_elevator_vent_004" position="-4285 3443 -300" rotation="-0 0 -0 -1" unit_id="102240"/>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/com_prop_election_elevator_vent/com_prop_election_elevator_vent" name_id="basementR_manager_vent" position="-4285 3443 -300" rotation="-0 0 -0 -1" unit_id="102240"/>
 		</table>
 		<table>
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/com_int_basement/com_int_basement_floor_a_2x2m_clean" name_id="com_int_basement_floor_a_2x2m_clean_363" position="-4024.74 3376.92 -300.01" rotation="4.37114e-008 1 4.37114e-008 1.91069e-015" unit_id="102242"/>
@@ -7458,7 +7458,7 @@
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_election_elevator_vent/com_prop_election_elevator_vent" name_id="com_prop_election_elevator_vent_002" position="-4592.24 -2321.85 1061" rotation="0 0 0 -1" unit_id="100710"/>
 		</table>
 		<table>
-			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/architecture/res_ext_apartment/res_pipes_valve" name_id="basementL_valve004" position="-2746 -4595 -465" rotation="0 0 -0.707107 -0.707107" unit_id="100714"/>
+			<unit_data _prev_pos="-2746 -4595 -465" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-11 -21 45" local_rot="0 0 0.707107 0.707107" mesh_variation="" name="units/payday2/architecture/res_ext_apartment/res_pipes_valve" name_id="basementL_valve004" position="-2646 -4595 -465" rotation="0 0 -0.707107 -0.707107" unit_id="100714"/>
 		</table>
 		<table>
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_fbi_sign/off_prop_fbi_sign" name_id="off_prop_fbi_sign_002" position="-1665.09 -3372.55 774.9" rotation="0 0 0.92388 0.382683" unit_id="100715"/>
