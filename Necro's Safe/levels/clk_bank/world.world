@@ -280,6 +280,8 @@
 	<entry key="sounds" type="table">
 		<entry key="file" type="string" value="world_sounds"/>
 	</entry>
+	<entry key="wires" type="table">
+	</entry>
 	<entry key="world_camera" type="table">
 		<entry key="file" type="string" value="world_cameras"/>
 	</entry>
