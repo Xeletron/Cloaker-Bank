@@ -1,6 +1,5 @@
 {
 	"heist_clk_bank_name"	:	"Maxhun1"
 	"heist_clk_bank_brief"	:	"hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1"
-	"hud_hold_turn_of_gas"	:	"Hold $BTN_INTERACT to turn on the gas",
-	"hud_int_hold_activate_sprinklers"	:	"Hold $BTN_INTERACT to turn the valve"
+	"hud_hold_turn_of_gas"	:	"Hold $BTN_INTERACT to turn on the gas"
 }

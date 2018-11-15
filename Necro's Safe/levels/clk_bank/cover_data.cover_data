@@ -1,16 +1,4 @@
 <table>
-	<positions>
-		<value_node value="-3648 -919 775"/>
-		<value_node value="-3629 -1726 775"/>
-		<value_node value="-3821 -1609 775"/>
-		<value_node value="-3817 -2103 775"/>
-		<value_node value="-3846 -2498 775"/>
-	</positions>
-	<rotations>
-		<value_node value="0"/>
-		<value_node value="0"/>
-		<value_node value="0"/>
-		<value_node value="0"/>
-		<value_node value="0"/>
-	</rotations>
+	<positions/>
+	<rotations/>
 </table>
