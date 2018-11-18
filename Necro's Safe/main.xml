@@ -45,6 +45,7 @@
 			<value_node value="levels/instances/unique/help/prison_train/world_sounds"/>
 			<value_node value="packages/narr_red2"/>
 			<value_node value="levels/narratives/bain/shadow_raid/world"/>
+			<value_node value="levels/instances/unique/hox_fbi_archive_shelf/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
