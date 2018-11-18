@@ -1,6 +1,9 @@
 {
 	"heist_clk_bank_name"	:	"Maxhun1"
 	"heist_clk_bank_brief"	:	"hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1hun1"
-	"hud_hold_turn_of_gas"	:	"Hold $BTN_INTERACT to turn on the gas",
-	"hud_int_hold_activate_sprinklers"	:	"Hold $BTN_INTERACT to turn the valve"
+	"hud_clk_search_keycard"	:	"Hold $BTN_INTERACT to search for the keycard",
+	"hud_action_clk_search_keycard"	:	"Searching",
+	"hud_clk_hold_turn_gas"	:	"Hold $BTN_INTERACT to turn on the gas",
+	"hud_clk_hold_turn_valve"	:	"Hold $BTN_INTERACT to turn the valve"
+	"hud_action_clk_valve"	:	"Turning valve"
 }

@@ -8,6 +8,9 @@
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
 		</assets>
+		<hooks>
+			<hook file="hooks/interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+		</hooks>
 		<include directory="levels/clk_bank">
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
