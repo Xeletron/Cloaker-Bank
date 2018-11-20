@@ -24,6 +24,7 @@
 			<file file="world/world.mission" type="generic_xml"/>
 			<file file="cover_data.cover_data" type="custom_xml"/>
 			<file file="environments/default.environment" type="custom_xml"/>
+			<file file="environments/basement.environment" type="custom_xml"/>
 		</include>
 		<intro_event>
 			<value_node value=""/>
@@ -38,7 +39,6 @@
 			<value_node value="levels/narratives/armadillo/arm_hcm/world/world"/>
 			<value_node value="levels/narratives/e_election_day/stage_3/world"/>
 			<value_node value="levels/instances/unique/hox_fbi_armory/world/world"/>
-			<value_node value="levels/narratives/classics/red2/world/world"/>
 			<value_node value="levels/narratives/bain/big/world/world"/>
 			<value_node value="levels/narratives/dentist/mia/stage2/world/world"/>
 			<value_node value="levels/narratives/h_firestarter/stage_2/world/world"/>
@@ -49,6 +49,9 @@
 			<value_node value="packages/narr_red2"/>
 			<value_node value="levels/narratives/bain/shadow_raid/world"/>
 			<value_node value="levels/instances/unique/hox_fbi_archive_shelf/world/world"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_2/occluders/occluders"/>
+			<value_node value="levels/narratives/classics/red2/world/world"/>
+			<value_node value="levels/narratives/h_watchdogs/stage_1/editor_only/editor_only"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

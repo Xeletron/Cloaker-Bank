@@ -1,2 +1,4 @@
 <table>
+	<objective description="clk_1_desc" id="clk_1" prio="1" text="clk_1_text" xp_weight="1"/>
+	<objective description="clk_2_desc" id="clk_2" prio="1" text="clk_2_text" xp_weight="1"/>
 </table>
