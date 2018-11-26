@@ -23,7 +23,7 @@
 			<file file="world/world.continent" type="custom_xml"/>
 			<file file="world/world.mission" type="generic_xml"/>
 			<file file="cover_data.cover_data" type="custom_xml"/>
-			<file file="environments/default.environment" type="custom_xml"/>
+			<file file="environments/outside.environment" type="custom_xml"/>
 			<file file="environments/basement.environment" type="custom_xml"/>
 		</include>
 		<intro_event>

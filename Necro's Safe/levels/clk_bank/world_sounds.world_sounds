@@ -1,12 +1,68 @@
 <generic_scriptdata type="table">
 	<entry key="ambience_enabled" type="boolean" value="true"/>
-	<entry key="default_ambience" type="string" value="ambience_ext_docks_large"/>
-	<entry key="default_environment" type="string" value="acoustics_indoor_large_hiecho"/>
-	<entry key="default_occasional" type="string" value="occasionals_silent"/>
+	<entry key="default_ambience" type="string" value="ambience_ext_downtown_large_day"/>
+	<entry key="default_environment" type="string" value="acoustics_outdoor_large"/>
+	<entry key="default_occasional" type="string" value="occasionals_big_city"/>
 	<entry key="sound_area_emitters" type="table">
 	</entry>
 	<entry key="sound_emitters" type="table">
 	</entry>
 	<entry key="sound_environments" type="table">
+		<entry index="1" type="table">
+			<entry key="ambience_event" type="string" value="ambience_switch_halloween_2016_int"/>
+			<entry key="depth" type="number" value="3350"/>
+			<entry key="environment" type="string" value="pd2_acoustics_indoor_medium"/>
+			<entry key="height" type="number" value="900"/>
+			<entry key="name" type="string" value="sound_env_inside"/>
+			<entry key="position" type="vector3" value="-3015 -2244 -2"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+			<entry key="type" type="string" value="box"/>
+			<entry key="use_ambience" type="boolean" value="true"/>
+			<entry key="use_environment" type="boolean" value="true"/>
+			<entry key="use_occasional" type="boolean" value="false"/>
+			<entry key="width" type="number" value="4550"/>
+		</entry>
+		<entry index="2" type="table">
+			<entry key="ambience_event" type="string" value="ambience_ext_downtown_large_day"/>
+			<entry key="depth" type="number" value="2600"/>
+			<entry key="environment" type="string" value="acoustics_outdoor_large"/>
+			<entry key="height" type="number" value="1000"/>
+			<entry key="name" type="string" value="sound_env_outside"/>
+			<entry key="occasional_event" type="string" value="occasionals_big_city"/>
+			<entry key="position" type="vector3" value="1537.63 -1893.27 -120"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+			<entry key="type" type="string" value="box"/>
+			<entry key="use_ambience" type="boolean" value="true"/>
+			<entry key="use_environment" type="boolean" value="true"/>
+			<entry key="use_occasional" type="boolean" value="true"/>
+			<entry key="width" type="number" value="3000"/>
+		</entry>
+		<entry index="3" type="table">
+			<entry key="ambience_event" type="string" value="ambience_switch_halloween_2016_int"/>
+			<entry key="depth" type="number" value="3350"/>
+			<entry key="environment" type="string" value="pd2_acoustics_indoor_medium"/>
+			<entry key="height" type="number" value="900"/>
+			<entry key="name" type="string" value="sound_env_inside"/>
+			<entry key="position" type="vector3" value="-3015 -2244 -2"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+			<entry key="type" type="string" value="box"/>
+			<entry key="use_ambience" type="boolean" value="true"/>
+			<entry key="use_environment" type="boolean" value="true"/>
+			<entry key="use_occasional" type="boolean" value="false"/>
+			<entry key="width" type="number" value="4500"/>
+		</entry>
+		<entry index="4" type="table">
+			<entry key="depth" type="number" value="1000"/>
+			<entry key="environment" type="string" value="Default (Custom)"/>
+			<entry key="height" type="number" value="1000"/>
+			<entry key="name" type="string" value="sound_env_inside"/>
+			<entry key="position" type="vector3" value="-3015 -2244 -2"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+			<entry key="type" type="string" value="box"/>
+			<entry key="use_ambience" type="boolean" value="true"/>
+			<entry key="use_environment" type="boolean" value="true"/>
+			<entry key="use_occasional" type="boolean" value="true"/>
+			<entry key="width" type="number" value="1000"/>
+		</entry>
 	</entry>
 </generic_scriptdata>
