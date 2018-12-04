@@ -23,7 +23,7 @@
 			<unit_data _prev_pos="-101.563 84.0773 -1" _prev_rot="0 0 -0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_10" name_id="navigation_blocker_10_004" only_exists_in_editor="true" position="-103.563 84.0773 -1" rotation="0 0 -0 -1" unit_id="200052"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1932.37 -1427.01 -1" _prev_rot="0 0 -0 -1" continent="editor_only" local_pos="-1830.81 -189.09 0" local_rot="-0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_10" name_id="navigation_blocker_10_002" only_exists_in_editor="true" position="-1932.37 -1427.01 -1" rotation="0 0 -0 -1" unit_id="200053"/>
+			<unit_data _prev_pos="-1932.37 -1427.01 -1" _prev_rot="0 0 -0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_10" name_id="navigation_blocker_10_002" only_exists_in_editor="true" position="-1932.37 -1427.01 -1" rotation="-0 0 -0 -1" unit_id="200053"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1932.37 116.986 -1" _prev_rot="0 0 -0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_10" name_id="navigation_blocker_10_001" only_exists_in_editor="true" position="-1932.37 116.986 -1" rotation="0 0 -0 -1" unit_id="200054"/>
