@@ -1,2 +1,16 @@
 <table directory="assets">
+	<add path="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" type="unit">
+		<unit force="true" path="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" unload="true"/>
+		<cooked_physics force="true" path="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" unload="true"/>
+		<model force="true" path="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" unload="true"/>
+		<object force="true" path="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" unload="true"/>
+	</add>
+	<add path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_left" type="unit">
+		<cooked_physics force="true" path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_left" unload="true"/>
+		<material_config force="true" path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_near_bridgestone" unload="true"/>
+		<model force="true" path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_left" unload="true"/>
+		<object force="true" path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_left" unload="true"/>
+		<unit force="true" path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_left" unload="true"/>
+	</add>
 </table>

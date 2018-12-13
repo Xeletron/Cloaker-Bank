@@ -10,5 +10,13 @@
 	"clk_1_text"	:	"Enter the bank",
 	"clk_2_text"	:	"Find the manager",
 	"clk_3_text"	:	"Pick up the c4",
-	"clk_4_text"	:	"Plant c4 on the door"
+	"clk_4_text"	:	"Plant c4 on the door",
+	"clk_5_text"	:	"Gain access",
+	"clk_6_text"	:	"Find the keycard",
+	"clk_7_text"	:	"Gas out the manager",
+	"clk_8_text"	:	"Get the vault open",
+	"clk_9_text"	:	"Loot the vault",
+	"clk_10_text"	:	"Secure the loot",
+	"clk_11_text"	:	"Secure more loot or escape",
+	"clk_12_text"	:	"Get to the escape"	
 }

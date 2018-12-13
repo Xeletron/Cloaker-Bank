@@ -3,4 +3,12 @@
 	<objective description="clk_2_desc" id="clk_2" prio="1" text="clk_2_text" xp_weight="1"/>
 	<objective description="clk_3_desc" id="clk_3" prio="1" text="clk_3_text" xp_weight="1"/>
 	<objective description="clk_4_desc" id="clk_4" prio="1" text="clk_4_text" xp_weight="1"/>
+	<objective description="clk_5_desc" id="clk_5" prio="1" text="clk_5_text" xp_weight="1"/>
+	<objective description="clk_6_desc" id="clk_6" prio="1" text="clk_6_text" xp_weight="1"/>
+	<objective description="clk_7_desc" id="clk_7" prio="1" text="clk_7_text" xp_weight="1"/>
+	<objective description="clk_8_desc" id="clk_8" prio="1" text="clk_8_text" xp_weight="1"/>
+	<objective description="clk_9_desc" id="clk_9" prio="1" text="clk_9_text" xp_weight="1"/>
+	<objective description="clk_10_desc" id="clk_10" prio="1" text="clk_10_text" xp_weight="1"/>
+	<objective description="clk_11_desc" id="clk_11" prio="1" text="clk_11_text" xp_weight="1"/>
+	<objective description="clk_12_desc" id="clk_12" prio="1" text="clk_12_text" xp_weight="1"/>
 </table>
