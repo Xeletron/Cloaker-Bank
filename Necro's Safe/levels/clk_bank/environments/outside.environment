@@ -8,7 +8,7 @@
 		<others>
 			<param key="sky_texture" value=""/>
 			<param key="global_world_overlay_mask_texture" value=""/>
-			<param key="underlay" value="core/environments/skies/default/default"/>
+			<param key="underlay" value="core/environments/skies/sky_city_clear/sky_city_clear"/>
 			<param key="sun_ray_color_scale" value="1.1310000419617"/>
 			<param key="global_world_overlay_texture" value=""/>
 			<param key="sun_ray_color" value="1 0.9450980424881 0.81176471710205"/>
@@ -24,12 +24,12 @@
 						<param key="effect_light_scale" value="1"/>
 						<param key="fog_far_low_color" value="0.80392158031464 0.8941176533699 1"/>
 						<param key="ambient_falloff_scale" value="0.68099999427795"/>
-						<param key="sky_bottom_color_scale" value="0.149000005126"/>
+						<param key="sky_bottom_color_scale" value="0.14900000393391"/>
 						<param key="ambient_color_scale" value="0.31999999284744"/>
 						<param key="ambient_color" value="0.30588236451149 0.30588236451149 0.30588236451149"/>
 						<param key="fog_max_range" value="500000"/>
 						<param key="bloom_threshold" value="0.55000001192093"/>
-						<param key="sky_top_color_scale" value="0.35499997138977"/>
+						<param key="sky_top_color_scale" value="0.35499995946884"/>
 						<param key="sky_top_color" value="0.86666667461395 0.94901961088181 1"/>
 						<param key="fog_min_range" value="806"/>
 						<param key="fog_max_density" value="1"/>
@@ -48,10 +48,6 @@
 					</shadow_modifier>
 				</shadow_rendering>
 			</shadow_processor>
-			<fog_processor>
-			</fog_processor>
-			<hdr_post_processor>
-			</hdr_post_processor>
 			<bloom_combine_post_processor>
 				<bloom_combine>
 					<bloom_lense>

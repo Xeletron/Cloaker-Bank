@@ -18,5 +18,6 @@
 	"clk_9_text"	:	"Loot the vault",
 	"clk_10_text"	:	"Secure the loot",
 	"clk_11_text"	:	"Secure more loot or escape",
-	"clk_12_text"	:	"Get to the escape"	
+	"clk_12_text"	:	"Blow out the wall",
+	"clk_13_text"	:	"Get to the escape"
 }

@@ -11,4 +11,5 @@
 	<objective description="clk_10_desc" id="clk_10" prio="1" text="clk_10_text" xp_weight="1"/>
 	<objective description="clk_11_desc" id="clk_11" prio="1" text="clk_11_text" xp_weight="1"/>
 	<objective description="clk_12_desc" id="clk_12" prio="1" text="clk_12_text" xp_weight="1"/>
+	<objective description="clk_13_desc" id="clk_13" prio="1" text="clk_13_text" xp_weight="1"/>
 </table>
