@@ -6,5 +6,4 @@ Hooks:PostHook(InteractionTweakData, "init", "init_clk", function (self, ...)
     self.hold_turn_off_gas.text_id  = "hud_clk_hold_turn_gas"
     self.hold_activate_sprinklers.text_id  = "hud_clk_hold_turn_valve"
     self.hold_activate_sprinklers.action_text_id  = "hud_action_clk_valve"
-    log("CLK BANK INIT COMPLETE")
 end)

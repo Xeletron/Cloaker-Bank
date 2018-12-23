@@ -1,7 +1,7 @@
 <table name="Necro's Safe">
 	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
 	<Localization default="english.txt" directory="loc"/>
-	<level ai_group_type="America" briefing_dialog="" id="clk_bank" max_bags="54" team_ai_off="true">
+	<level ai_group_type="America" briefing_dialog="" id="clk_bank" intro_event="" max_bags="54" team_ai_off="false">
 		<add file="levels/clk_bank/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -27,9 +27,6 @@
 			<file file="environments/outside.environment" type="custom_xml"/>
 			<file file="environments/basement.environment" type="custom_xml"/>
 		</include>
-		<intro_event>
-			<value_node value=""/>
-		</intro_event>
 		<outro_event>
 			<value_node value=""/>
 		</outro_event>
@@ -48,13 +45,13 @@
 			<value_node value="levels/narratives/classics/red2/world/world"/>
 			<value_node value="levels/narratives/h_watchdogs/stage_1/editor_only/editor_only"/>
 			<value_node value="levels/narratives/dentist/mia/stage2/world/world"/>
-			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
 			<value_node value="levels/instances/unique/help/prison_train/world/world"/>
 			<value_node value="levels/instances/unique/help/help_king_cloaker_dozer/world/world"/>
 			<value_node value="levels/narratives/bain/shadow_raid/world"/>
 			<value_node value="levels/narratives/e_election_day/stage_3/world/world"/>
 			<value_node value="levels/narratives/bain/big/world/world"/>
 			<value_node value="levels/narratives/h_firestarter/stage_2/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
