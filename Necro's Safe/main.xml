@@ -52,6 +52,7 @@
 			<value_node value="levels/narratives/bain/big/world/world"/>
 			<value_node value="levels/narratives/h_firestarter/stage_2/world/world"/>
 			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
+			<value_node value="levels/narratives/bain/big/props/props"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
