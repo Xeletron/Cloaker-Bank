@@ -13,4 +13,10 @@
 		<object force="true" path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_left" unload="true"/>
 		<unit force="true" path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_left" unload="true"/>
 	</add>
+	<add path="effects/payday2/environment/green_fire_large" type="effect">
+		<effect force="true" load="true" path="effects/payday2/environment/green_fire_large" unload="true"/>
+	</add>
+	<add path="effects/particles/dest/apartment_ceiling_dust" type="effect">
+		<effect force="true" load="true" path="effects/particles/dest/apartment_ceiling_dust" unload="true"/>
+	</add>
 </table>
