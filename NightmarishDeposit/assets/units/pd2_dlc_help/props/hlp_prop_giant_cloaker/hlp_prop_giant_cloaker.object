@@ -1,0 +1,54 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_help/props/hlp_prop_giant_cloaker/hlp_prop_giant_cloaker" orientation_object="root_point" />
+	<sequence_manager file="units/pd2_dlc_help/props/hlp_prop_giant_cloaker/hlp_prop_giant_cloaker" />
+	<animation_def name="anims/units/level/help/hlp_giant_cloaker/def" />
+	<bodies>
+		<body name="editor_collision" enabled="true" template="editor">
+			<object name="Hips" />
+			<object name="g_body" collision_type="box" />
+		</body>
+		<body name="body_rill_r" enabled="false" template="animated" collides_with_mover="false">
+			<object name="c_drill_mesh_mopp_r" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_rill_l" enabled="false" template="animated" collides_with_mover="false">
+			<object name="c_drill_mesh_mopp_l" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_flamethrower" enabled="false" template="animated" collides_with_mover="false">
+			<object name="c_flamethrower_mesh_mopp" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<effects>
+		<effect_spawner name="flames" enabled="false" object="e_effect" effect="effects/payday2/particles/explosions/flamethrower_big_alt" />
+		<effect_spawner name="smoke_pin" enabled="false" object="e_effect_grenade" effect="effects/particles/explosions/smoke_grenade_big_pin" />
+    </effects>
+	
+	<graphics>
+		<graphic_group 		name="cloaker" 			enabled="false" culling_object="co_cloaker">
+			<object 		name="g_il_r" 			enabled="true" />
+			<object 		name="g_il_l" 			enabled="true" />
+			<object 		name="g_body" 			enabled="true" shadow_caster="true" />
+		</graphic_group>	
+		<graphic_group 		name="drill_r" 			enabled="false">
+			<object 		name="g_base_r" 		enabled="true" shadow_caster="true" />
+			<object 		name="g_drill_r" 		enabled="true" shadow_caster="true" />
+			<object 		name="g_drill_drill_r" 	enabled="true" shadow_caster="true" />
+		</graphic_group>
+		<graphic_group 		name="drill_l" 			enabled="false">
+			<object 		name="g_base_l" 		enabled="true" shadow_caster="true" />
+			<object 		name="g_drill_l" 		enabled="true" shadow_caster="true" />
+			<object 		name="g_drill_drill_l" 	enabled="true" shadow_caster="true" />
+		</graphic_group>
+		<graphic_group 		name="flamethrower" 	enabled="false">
+			<object 		name="g_flamethrower" 	enabled="true"/>
+		</graphic_group>
+		<graphic_group name="grenade" 				enabled="false" >
+			<object 		name="g_grenade_body" 	enabled="true" />
+			<object 		name="g_handle" 		enabled="true" />
+		</graphic_group>
+		<graphic_group name="grenade_pin" 			enabled="false" >
+			<object 		name="g_safetypin" 		enabled="true" />
+			<object 		name="g_trianglering" 	enabled="true" />
+		</graphic_group>
+	</graphics>
+</dynamic_object>

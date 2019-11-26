@@ -1,22 +1,32 @@
 <table directory="assets">
 	<add path="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" type="unit">
-		<cooked_physics force="true" path="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" unload="true"/>
-		<material_config force="true" path="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" unload="true"/>
-		<model force="true" path="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" unload="true"/>
 		<object force="true" path="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" unload="true"/>
 		<unit force="true" path="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" unload="true"/>
+		<model force="true" path="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" unload="true"/>
+		<cooked_physics force="true" path="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" unload="true"/>
 	</add>
 	<add path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_left" type="unit">
-		<cooked_physics force="true" path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_left" unload="true"/>
-		<material_config force="true" path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_near_bridgestone" unload="true"/>
-		<model force="true" path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_left" unload="true"/>
 		<object force="true" path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_left" unload="true"/>
+		<material_config force="true" path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_near_bridgestone" unload="true"/>
 		<unit force="true" path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_left" unload="true"/>
+		<model force="true" path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_left" unload="true"/>
+		<cooked_physics force="true" path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_left" unload="true"/>
 	</add>
 	<add path="effects/payday2/environment/green_fire_large" type="effect">
 		<effect force="true" load="true" path="effects/payday2/environment/green_fire_large" unload="true"/>
 	</add>
-	<add path="effects/particles/dest/apartment_ceiling_dust" type="effect">
-		<effect force="true" load="true" path="effects/particles/dest/apartment_ceiling_dust" unload="true"/>
+	<add path="units/pd2_dlc_help/props/hlp_prop_giant_cloaker/hlp_prop_giant_cloaker" type="unit">
+		<effect force="true" load="true" path="effects/payday2/particles/explosions/flamethrower_big_alt" unload="true"/>
+		<effect force="true" load="true" path="effects/particles/explosions/smoke_grenade_big_pin" unload="true"/>
+		<effect force="true" load="true" path="effects/payday2/particles/character/overkillpack/giant_cloaker_eyes" unload="true"/>
+		<object force="true" path="units/pd2_dlc_help/props/hlp_prop_giant_cloaker/hlp_prop_giant_cloaker" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_help/props/hlp_prop_giant_cloaker/hlp_prop_giant_cloaker" unload="true"/>
+		<animation_states force="true" path="anims/units/level/help/hlp_giant_cloaker/states" unload="true"/>
+		<animation_subset force="true" path="anims/units/level/help/hlp_giant_cloaker/anims" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_help/props/hlp_prop_giant_cloaker/hlp_prop_giant_cloaker" unload="true"/>
+		<animation_state_machine force="true" path="anims/units/level/help/hlp_giant_cloaker/machine" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_help/props/hlp_prop_giant_cloaker/hlp_prop_giant_cloaker" unload="true"/>
+		<animation_def force="true" path="anims/units/level/help/hlp_giant_cloaker/def" unload="true"/>
 	</add>
 </table>

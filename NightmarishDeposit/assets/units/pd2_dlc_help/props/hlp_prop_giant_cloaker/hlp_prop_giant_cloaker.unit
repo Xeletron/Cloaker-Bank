@@ -1,0 +1,23 @@
+<unit type="hlp" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_dlc_help/props/hlp_prop_giant_cloaker/hlp_prop_giant_cloaker" />
+	<anim_state_machine name="anims/units/level/help/hlp_giant_cloaker/machine" />
+	<dependencies>
+		<depends_on animation_def="anims/units/level/help/hlp_giant_cloaker/def"/>
+		<depends_on animation_state_machine="anims/units/level/help/hlp_giant_cloaker/machine"/>
+		<depends_on effect="effects/payday2/particles/explosions/flamethrower_big_alt" />
+		<depends_on effect="effects/particles/explosions/smoke_grenade_big_pin" />
+		<depends_on effect="effects/payday2/particles/character/overkillpack/giant_cloaker_eyes" />
+		<depends_on bnk="soundbanks/halloween_2016" />
+	</dependencies>
+	<extensions>
+    	<extension name="base" class="AnimatedVehicleBase">
+    	</extension>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+	<sounds>
+		<soundsource name="snd_flame" source="e_effect" />
+		<soundsource name="snd_drill" source="snd_drill" />
+	</sounds>
+</unit>

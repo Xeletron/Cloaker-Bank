@@ -104,10 +104,10 @@
 		<value_node value="-3043 -3040 784"/>
 		<value_node value="-2145 -3805 -591"/>
 		<value_node value="-3852 2092 -596"/>
-		<value_node value="-3817 -2103 775"/>
 		<value_node value="-3096 -3124 -591"/>
 		<value_node value="-3670 -2396 784"/>
 		<value_node value="-3755 2344 -596"/>
+		<value_node value="-3817 -2221 775"/>
 		<value_node value="-2352 -3774 -591"/>
 		<value_node value="-3565 -2721 775"/>
 		<value_node value="-4140 1963 -596"/>
@@ -254,8 +254,8 @@
 		<value_node value="55"/>
 		<value_node value="0"/>
 		<value_node value="0"/>
-		<value_node value="0"/>
 		<value_node value="180"/>
+		<value_node value="0"/>
 		<value_node value="10"/>
 		<value_node value="0"/>
 		<value_node value="0"/>

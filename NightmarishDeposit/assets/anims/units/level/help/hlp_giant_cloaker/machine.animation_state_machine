@@ -1,0 +1,9 @@
+
+<state_machine name="machine" timebase="frames">
+	<segment name="base"/>
+	
+	<default state="std/empty"/>
+	
+	<states file="anims/units/level/help/hlp_giant_cloaker/states" />
+	
+</state_machine>

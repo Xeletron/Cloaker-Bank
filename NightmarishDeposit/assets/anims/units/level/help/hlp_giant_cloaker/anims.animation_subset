@@ -1,0 +1,63 @@
+<xml>
+
+	<!-- // -->
+	<anim	name="deploy_bulldozer"				file="anims/level/help/hlp_giant_cloaker/deploy_bulldozer"					blend_set="all"/>
+
+	<anim	name="deploy_enter"					file="anims/level/help/hlp_giant_cloaker/deploy_enter"						blend_set="all"/>
+	<anim	name="deploy_idle"					file="anims/level/help/hlp_giant_cloaker/deploy_idle"						blend_set="all"/>
+
+	<anim	name="deploy_sniper_exit"			file="anims/level/help/hlp_giant_cloaker/deploy_sniper_exit"				blend_set="all"/>
+	<anim	name="deploy_sniper_loop"			file="anims/level/help/hlp_giant_cloaker/deploy_sniper_loop"				blend_set="all"/>
+	<anim	name="deploy_sniper_start"			file="anims/level/help/hlp_giant_cloaker/deploy_sniper_start"				blend_set="all"/>
+
+	<anim	name="drill_idle_loop"				file="anims/level/help/hlp_giant_cloaker/drill_idle_loop"					blend_set="all"/>
+	<anim	name="drill_enter"					file="anims/level/help/hlp_giant_cloaker/drill_enter"						blend_set="all"/>
+
+	<anim	name="drill_attack_close_exit"		file="anims/level/help/hlp_giant_cloaker/drill_attack_close_exit"			blend_set="all"/>
+	<anim	name="drill_attack_close_loop"		file="anims/level/help/hlp_giant_cloaker/drill_attack_close_loop"			blend_set="all"/>
+	<anim	name="drill_attack_close_start"		file="anims/level/help/hlp_giant_cloaker/drill_attack_close_start"			blend_set="all"/>
+
+	<anim	name="drill_attack_far_exit"		file="anims/level/help/hlp_giant_cloaker/drill_attack_far_exit"				blend_set="all"/>
+	<anim	name="drill_attack_far_loop"		file="anims/level/help/hlp_giant_cloaker/drill_attack_far_loop"				blend_set="all"/>
+	<anim	name="drill_attack_far_start"		file="anims/level/help/hlp_giant_cloaker/drill_attack_far_start"			blend_set="all"/>
+
+	<anim	name="drill_attack_medium_exit"		file="anims/level/help/hlp_giant_cloaker/drill_attack_medium_exit"			blend_set="all"/>
+	<anim	name="drill_attack_medium_loop"		file="anims/level/help/hlp_giant_cloaker/drill_attack_medium_loop"			blend_set="all"/>
+	<anim	name="drill_attack_medium_start"	file="anims/level/help/hlp_giant_cloaker/drill_attack_medium_start"			blend_set="all"/>
+
+	<anim	name="flame_attack_enter"			file="anims/level/help/hlp_giant_cloaker/flame_attack_enter"				blend_set="all"/>
+	<anim	name="flame_attack_exit"			file="anims/level/help/hlp_giant_cloaker/flame_attack_exit"					blend_set="all"/>
+	<anim	name="flame_attack_loop"			file="anims/level/help/hlp_giant_cloaker/flame_attack_loop"					blend_set="all"/>
+	<anim	name="flame_loop"					file="anims/level/help/hlp_giant_cloaker/flame_loop"						blend_set="all"/>
+	<anim	name="flame_enter"					file="anims/level/help/hlp_giant_cloaker/flame_enter"						blend_set="all"/>
+
+	<anim	name="lean_l_loop"					file="anims/level/help/hlp_giant_cloaker/lean_l_loop"						blend_set="all"/>
+	<anim	name="lean_l_enter"					file="anims/level/help/hlp_giant_cloaker/lean_l_enter"						blend_set="all"/>
+	<anim	name="lean_l_exit"					file="anims/level/help/hlp_giant_cloaker/lean_l_exit"						blend_set="all"/>
+
+	<anim	name="lean_r_enter"					file="anims/level/help/hlp_giant_cloaker/lean_r_enter"						blend_set="all"/>
+	<anim	name="lean_r_loop"					file="anims/level/help/hlp_giant_cloaker/lean_r_loop"						blend_set="all"/>
+	<anim	name="lean_r_exit"					file="anims/level/help/hlp_giant_cloaker/lean_r_exit"						blend_set="all"/>
+
+	<anim	name="drill_attack_single_start"	file="anims/level/help/hlp_giant_cloaker/drill_attack_single_start"			blend_set="all"/>
+	<anim	name="drill_attack_single_loop"		file="anims/level/help/hlp_giant_cloaker/drill_attack_single_loop"			blend_set="all"/>
+	<anim	name="drill_attack_single_exit"		file="anims/level/help/hlp_giant_cloaker/drill_attack_single_exit"			blend_set="all"/>
+
+	<anim	name="smoke_attack_enter"			file="anims/level/help/hlp_giant_cloaker/smoke_attack"						blend_set="all"/>
+
+	<anim	name="level_start_enter"			file="anims/level/help/hlp_giant_cloaker/level_start"						blend_set="all"/>
+
+	<anim	name="level_start_short"			file="anims/level/help/hlp_giant_cloaker/level_start_short"					blend_set="all"/>
+
+	<anim	name="zipline_attack"				file="anims/level/help/hlp_giant_cloaker/zipline_attack"					blend_set="all"/>
+	
+	<anim	name="climb_bridge"					file="anims/level/help/hlp_giant_cloaker/climb_bridge"						blend_set="all"/>
+	
+	<anim	name="angry_loop"					file="anims/level/help/hlp_giant_cloaker/angry_loop"						blend_set="all"/>
+	<anim	name="angry_enter"					file="anims/level/help/hlp_giant_cloaker/angry_enter"						blend_set="all"/>
+	
+	<anim	name="deploy_sniper_single_start"	file="anims/level/help/hlp_giant_cloaker/deploy_sniper_single_start"		blend_set="all"/>
+	<anim	name="deploy_sniper_single_loop"	file="anims/level/help/hlp_giant_cloaker/deploy_sniper_single_loop"			blend_set="all"/>
+	<anim	name="deploy_sniper_single_exit"	file="anims/level/help/hlp_giant_cloaker/deploy_sniper_single_exit"			blend_set="all"/>
+
+</xml>

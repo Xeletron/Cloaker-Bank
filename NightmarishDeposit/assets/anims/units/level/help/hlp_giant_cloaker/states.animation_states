@@ -1,0 +1,316 @@
+<xml>
+	<state name="std" type="template_state" segment="base">
+		<default blend="0"/>
+
+		<to	name="enter"								redirect="std/move/enter"/>
+		<to	name="drill_enter"							redirect="std/move/drill_enter"/>
+
+		<!-- sniper attack redirect start -->
+		<to	name="sniper_exit"							redirect="std/move/sniper_exit"/>
+		<to	name="sniper_enter"							redirect="std/move/sniper_enter"/>
+		<!-- sniper attack redirect end -->
+
+		<!-- sniper single attack redirect start -->
+		<to	name="sniper_exit_single"					redirect="std/move/sniper_exit_single"/>
+		<to	name="sniper_enter_single"					redirect="std/move/sniper_enter_single"/>
+		<!-- sniper single attack redirect end -->
+
+		<!-- drill close attack redirect start -->
+		<to	name="drill_close_attack_exit"				redirect="std/move/drill_close_exit"/>
+		<to	name="drill_close_attack_enter"				redirect="std/move/drill_close_enter"/>
+		<!-- drill close attack redirect end -->
+
+		<!-- drill far attack redirect start -->
+		<to	name="drill_far_attack_exit"				redirect="std/move/drill_far_exit"/>
+		<to	name="drill_far_attack_enter"				redirect="std/move/drill_far_enter"/>
+		<!-- drill far attack redirect end -->
+
+		<!-- drill medium attack redirect start -->
+		<to	name="drill_medium_attack_exit"				redirect="std/move/drill_medium_exit"/>
+		<to	name="drill_medium_attack_enter"			redirect="std/move/drill_medium_enter"/>
+		<!-- drill medium attack redirect end -->
+
+		<!-- drill single attack redirect start -->
+		<to	name="drill_single_attack_exit"				redirect="std/move/drill_single_exit"/>
+		<to	name="drill_single_attack_enter"			redirect="std/move/drill_single_enter"/>
+		<!-- drill single attack redirect end -->
+
+		<!-- flamethrower attack redirect start -->
+		<to	name="flame_exit"							redirect="std/move/flame_exit"/>
+		<to	name="flame_attack_exit"					redirect="std/move/flame_attack_exit"/>
+		<to	name="flame_enter"							redirect="std/move/flame_enter"/>
+		<to	name="flame_attack_enter"					redirect="std/move/flame_attack_enter"/>
+		<!-- flamethrower attack redirect end -->
+
+		<!-- drop dozer redirect start -->
+		<to	name="dozer_attack_enter"					redirect="std/move/drop_dozer"/>
+		<!-- drop dozer redirect end -->
+
+		<!-- drop dozer redirect start -->
+		<to	name="smoke_attack_enter"					redirect="std/move/smoke_enter"/>
+		<!-- drop dozer redirect end -->
+
+		<!-- zipline_attack start -->
+		<to	name="zipline_attack"						redirect="std/move/zipline_attack"/>
+		<!-- zipline_attack end -->
+		
+		<!-- climb bridge start -->
+		<to	name="climb_bridge"							redirect="std/move/climb_bridge"/>
+		<!-- climb bridge end -->
+		
+		<!-- angry start -->
+		<to	name="angry_enter"							redirect="std/move/angry_enter"/>
+		<!-- angry end -->
+		
+		<!-- lean left redirect start -->
+		<to	name="lean_left_enter"						redirect="std/move/lean_left_enter"/>
+		<to	name="lean_left_exit"						redirect="std/move/lean_left_exit"/>
+		<!-- lean left redirect end -->
+
+		<!-- lean right redirect start -->
+		<to	name="lean_right_enter"						redirect="std/move/lean_right_enter"/>
+		<to	name="lean_right_exit"						redirect="std/move/lean_right_exit"/>
+		<!-- lean right redirect end -->
+
+		<!-- level start redirect start -->
+		<to	name="level_start_enter"					redirect="std/move/level_start" />
+		<to	name="level_start_short_enter"				redirect="std/move/level_start_short" />
+		<!-- level start redirect end -->
+
+	</state>
+
+	<state name="std/empty" type="emptyloop" segment="base">
+		<keys>
+		</keys>
+	</state>
+
+<!-- cloaker idle start -->
+	<state name="std/move/level_start" type="once" segment="base">
+		<anim name="level_start_enter"/>
+		<exit name="std/move/loop"/>
+	</state>
+	<state name="std/move/level_start_short" type="once" segment="base">
+		<anim name="level_start_short"/>
+		<exit name="std/move/loop"/>
+	</state>
+	<state name="std/move/enter" type="once" segment="base">
+		<anim name="deploy_enter"/>
+		<exit name="std/move/loop"/>
+	</state>
+	<state name="std/move/loop" type="loop" segment="base">
+		<anim name="deploy_idle"/>
+		<keys>
+			<key at="loop" callback="anim_clbk_run_seq" class_name="base" param1="done_loop" />
+		</keys>
+		<exit name="std/empty"/>
+	</state>
+<!-- cloaker idle end -->
+
+<!-- bulldozer deploy start -->
+	<state name="std/move/drop_dozer" type="once" segment="base">
+		<from name="std/move/loop" blend="10" />
+		<anim name="deploy_bulldozer"/>
+		<exit name="std/empty"/>
+	</state>
+<!-- bulldozer deploy end -->
+
+<!-- smoke attack start -->
+	<state name="std/move/smoke_enter" type="once" segment="base">
+		<anim name="smoke_attack_enter"/>
+		<exit name="std/empty"/>
+	</state>
+<!-- smoke attack end -->
+
+<!-- zipline attack start -->
+	<state name="std/move/zipline_attack" type="once" segment="base">
+		<anim name="zipline_attack"/>
+		<exit name="std/empty"/>
+	</state>
+<!-- zipline attack end -->
+
+<!-- climb bridge start -->
+	<state name="std/move/climb_bridge" type="once" segment="base">
+		<anim name="climb_bridge"/>
+		<exit name="std/empty"/>
+	</state>
+<!-- climb bridge end -->
+
+<!-- cloaker sniper attack start -->
+	<state name="std/move/sniper_enter" type="once" segment="base">
+		<from name="std/move/loop" blend="10" />
+		<anim name="deploy_sniper_start"/>
+		<exit name="std/move/sniper_loop"/>
+	</state>
+	<state name="std/move/sniper_loop" type="loop" segment="base">
+		<anim name="deploy_sniper_loop"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/move/sniper_exit" type="once" segment="base">
+		<from name="std/move/sniper_loop" blend="10" />
+		<anim name="deploy_sniper_exit"/>
+		<exit name="std/empty"/>
+	</state>
+<!-- cloaker sniper attack end -->
+
+<!-- cloaker single sniper attack start -->
+	<state name="std/move/sniper_enter_single" type="once" segment="base">
+		<from name="std/move/loop" blend="10" />
+		<anim name="deploy_sniper_single_start"/>
+		<exit name="std/move/sniper_loop_single"/>
+	</state>
+	<state name="std/move/sniper_loop_single" type="loop" segment="base">
+		<anim name="deploy_sniper_single_loop"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/move/sniper_exit_single" type="once" segment="base">
+		<from name="std/move/sniper_loop_single" blend="19" />
+		<anim name="deploy_sniper_single_exit"/>
+		<exit name="std/empty"/>
+	</state>
+<!-- cloaker single sniper attack end -->
+
+<!-- cloaker drill enter start -->
+	<state name="std/move/drill_enter" type="once" segment="base">
+		<anim name="drill_enter"/>
+		<exit name="std/move/drill_idle_loop"/>
+	</state>
+	<state name="std/move/drill_idle_loop" type="loop" segment="base">
+		<anim name="drill_idle_loop"/>
+		<exit name="std/empty"/>
+	</state>
+<!-- cloaker drill enter end -->
+
+<!-- cloaker angry start -->
+	<state name="std/move/angry_enter" type="once" segment="base">
+		<anim name="angry_enter"/>
+		<exit name="std/move/angry_loop"/>
+	</state>
+	<state name="std/move/angry_loop" type="loop" segment="base">
+		<anim name="angry_loop"/>
+		<exit name="std/empty"/>
+	</state>
+<!-- cloaker angry end -->
+
+
+<!-- cloaker drill close attack start -->
+	<state name="std/move/drill_close_enter" type="once" segment="base">
+		<anim name="drill_attack_close_start"/>
+		<exit name="std/move/drill_close_loop"/>
+	</state>
+	<state name="std/move/drill_close_loop" type="loop" segment="base">
+		<anim name="drill_attack_close_loop"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/move/drill_close_exit" type="once" segment="base">
+		<from name="std/move/drill_close_loop" blend="10" />
+		<anim name="drill_attack_close_exit"/>
+		<exit name="std/empty"/>
+	</state>
+<!-- cloaker drill close attack end -->
+
+<!-- cloaker drill far attack start -->
+	<state name="std/move/drill_far_enter" type="once" segment="base">
+		<anim name="drill_attack_far_start"/>
+		<exit name="std/move/drill_far_loop"/>
+	</state>
+	<state name="std/move/drill_far_loop" type="loop" segment="base">
+		<anim name="drill_attack_far_loop"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/move/drill_far_exit" type="once" segment="base">
+		<from name="std/move/drill_far_loop" blend="10" />
+		<anim name="drill_attack_far_exit"/>
+		<exit name="std/empty"/>
+	</state>
+<!-- cloaker drill far attack end -->
+
+<!-- cloaker flamer attack start -->
+	<state name="std/move/flame_enter" type="once" segment="base">
+		<anim name="flame_enter"/>
+		<exit name="std/move/flame_loop"/>
+	</state>
+	<state name="std/move/flame_loop" type="loop" segment="base">
+		<anim name="flame_loop"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/move/flame_attack_enter" type="once" segment="base">
+		<anim name="flame_attack_enter"/>
+		<exit name="std/move/flame_attack_loop"/>
+	</state>
+	<state name="std/move/flame_attack_loop" type="loop" segment="base">
+		<anim name="flame_attack_loop"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/move/flame_attack_exit" type="once" segment="base">
+		<from name="std/move/flame_attack_loop" blend="10" />
+		<anim name="flame_attack_exit"/>
+		<exit name="std/empty"/>
+	</state>
+<!-- cloaker flamer attack end -->
+
+<!-- cloaker lean left start -->
+	<state name="std/move/lean_left_enter" type="once" segment="base">
+		<from name="std/move/loop" blend="10" />
+		<anim name="lean_l_enter"/>
+		<exit name="std/move/lean_left_loop"/>
+	</state>
+	<state name="std/move/lean_left_loop" type="loop" segment="base">
+		<anim name="lean_l_loop"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/move/lean_left_exit" type="once" segment="base">
+		<from name="std/move/lean_left_loop" blend="10" />
+		<anim name="lean_l_exit"/>
+		<exit name="std/empty"/>
+	</state>
+<!-- cloaker lean left end -->
+
+<!-- cloaker lean right start -->
+	<state name="std/move/lean_right_enter" type="once" segment="base">
+		<from name="std/move/loop" blend="10" />
+		<anim name="lean_r_enter"/>
+		<exit name="std/move/lean_right_loop"/>
+	</state>
+	<state name="std/move/lean_right_loop" type="loop" segment="base">
+		<anim name="lean_r_loop"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/move/lean_right_exit" type="once" segment="base">
+		<from name="std/move/lean_right_loop" blend="10" />
+		<anim name="lean_r_exit"/>
+		<exit name="std/empty"/>
+	</state>
+<!-- cloaker lean right end -->
+
+<!-- cloaker drill medium attack start -->
+	<state name="std/move/drill_medium_enter" type="once" segment="base">
+		<anim name="drill_attack_medium_start"/>
+		<exit name="std/move/drill_medium_loop"/>
+	</state>
+	<state name="std/move/drill_medium_loop" type="loop" segment="base">
+		<anim name="drill_attack_medium_loop"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/move/drill_medium_exit" type="once" segment="base">
+		<from name="std/move/drill_medium_loop" blend="10" />
+		<anim name="drill_attack_medium_exit"/>
+		<exit name="std/empty"/>
+	</state>
+<!-- cloaker drill medium attack end -->
+
+<!-- cloaker drill single attack start -->
+	<state name="std/move/drill_single_enter" type="once" segment="base">
+		<anim name="drill_attack_single_start"/>
+		<exit name="std/move/drill_single_loop"/>
+	</state>
+	<state name="std/move/drill_single_loop" type="loop" segment="base">
+		<anim name="drill_attack_single_loop"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/move/drill_single_exit" type="once" segment="base">
+		<from name="std/move/drill_single_loop" blend="10" />
+		<anim name="drill_attack_single_exit"/>
+		<exit name="std/empty"/>
+	</state>
+<!-- cloaker drill single attack end -->
+</xml>

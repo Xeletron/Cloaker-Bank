@@ -1,12 +1,15 @@
 {
-	"heist_Necro's Safe_name"	:	"Nightmarish Deposit"
+	"heist_NightmarishDeposit_name"	:	"Nightmarish Deposit"
 	"heist_clk_bank_name"	:	"Nightmarish Deposit"
 	"heist_clk_bank_brief"	:	"Yes"
 	"hud_clk_search_keycard"	:	"Hold $BTN_INTERACT to search for the keycard",
+	"hud_clk_search_codes"	:	"Hold $BTN_INTERACT to search for the shutter codes",
 	"hud_action_clk_search_keycard"	:	"Searching",
 	"hud_clk_hold_turn_gas"	:	"Hold $BTN_INTERACT to turn on the gas",
 	"hud_clk_hold_turn_valve"	:	"Hold $BTN_INTERACT to turn the valve",
 	"hud_action_clk_valve"	:	"Turning valve",
+	"hud_clk_numpad"	:	"Press $BTN_INTERACT to close the shutters",
+	"hud_action_clk_nocodes"	:	"You need the shutter codes",
 	"clk_1_text"	:	"Enter the bank",
 	"clk_2_text"	:	"Find the manager",
 	"clk_3_text"	:	"Pick up the c4",
@@ -14,10 +17,10 @@
 	"clk_5_text"	:	"Gain access",
 	"clk_6_text"	:	"Find the keycard",
 	"clk_7_text"	:	"Gas out the manager",
-	"clk_8_text"	:	"Get the vault open",
+	"clk_8_text"	:	"Open the vault",
 	"clk_9_text"	:	"Loot the vault",
 	"clk_10_text"	:	"Secure the loot",
-	"clk_11_text"	:	"Secure more loot or escape",
-	"clk_12_text"	:	"Blow out the wall",
-	"clk_13_text"	:	"Get to the escape"
+	"clk_11_text"	:	"Secure more loot or gather in the elevator",
+	"clk_12_text"	:	"Ascend the building",
+	"clk_13_text"	:	"Find a way out"
 }
