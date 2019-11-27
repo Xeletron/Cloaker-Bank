@@ -1018,12 +1018,14 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-2290.5 2584.44 4227.77"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
 				<entry key="continent" type="string" value="world"/>
 				<entry key="local_pos" type="vector3" value="0 0 0"/>
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_046"/>
-				<entry key="position" type="vector3" value="-2290.5 4209.44 4227.77"/>
+				<entry key="position" type="vector3" value="-2120.5 2584.44 4227.77"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="46"/>
 			</entry>
@@ -1124,7 +1126,7 @@
 					<entry index="3" type="number" value="1"/>
 					<entry index="4" type="number" value="1"/>
 				</entry>
-				<entry key="depth" type="number" value="2700"/>
+				<entry key="depth" type="number" value="2800"/>
 				<entry key="environment" type="string" value=".map/environments/basement"/>
 				<entry key="filter_list" type="table">
 					<entry index="1" type="string" value="cee9c44e4f1ef6e2"/>
@@ -1157,7 +1159,7 @@
 				<entry key="height" type="number" value="600"/>
 				<entry key="name" type="string" value="none"/>
 				<entry key="permanent" type="boolean" value="false"/>
-				<entry key="position" type="vector3" value="-3748 -4840 -719"/>
+				<entry key="position" type="vector3" value="-5178 778 -719"/>
 				<entry key="prio" type="number" value="100"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="transition_time" type="number" value="1"/>
@@ -1218,147 +1220,6 @@
 					<entry index="3" type="number" value="1"/>
 					<entry index="4" type="number" value="1"/>
 				</entry>
-				<entry key="depth" type="number" value="2700"/>
-				<entry key="environment" type="string" value=".map/environments/basement"/>
-				<entry key="filter_list" type="table">
-					<entry index="1" type="string" value="cee9c44e4f1ef6e2"/>
-					<entry index="2" type="string" value="644be78b2651c798"/>
-					<entry index="3" type="string" value="c25af559c7e1d69c"/>
-					<entry index="4" type="string" value="ac403b8f792138ad"/>
-					<entry index="5" type="string" value="457904ce74fa1005"/>
-					<entry index="6" type="string" value="20458ffc6d388c0f"/>
-					<entry index="7" type="string" value="cd0d63956c019dc0"/>
-					<entry index="8" type="string" value="6fcd51beb559e85c"/>
-					<entry index="9" type="string" value="d3c16b0bb77370d4"/>
-					<entry index="10" type="string" value="35325076eb5a2684"/>
-					<entry index="11" type="string" value="cfd999417e8eb72d"/>
-					<entry index="12" type="string" value="c6b3fa02d5ee12b1"/>
-					<entry index="13" type="string" value="c45e91f4a9d72822"/>
-					<entry index="14" type="string" value="48b53ca3bf280008"/>
-					<entry index="15" type="string" value="e36a12365a151b14"/>
-					<entry index="16" type="string" value="6174ec93d0eeeacd"/>
-					<entry index="17" type="string" value="79632d2b8dab1c23"/>
-					<entry index="18" type="string" value="36ab89d313fd9a9b"/>
-					<entry index="19" type="string" value="b5663c81d7db7310"/>
-					<entry index="20" type="string" value="13d7817215360151"/>
-					<entry index="21" type="string" value="76078014daa529c8"/>
-					<entry index="22" type="string" value="fb725a62e7857072"/>
-					<entry index="23" type="string" value="312d3f85560b8f82"/>
-					<entry index="24" type="string" value="002c8c522e139b16"/>
-					<entry index="25" type="string" value="72c5ffc46ab06e53"/>
-					<entry index="26" type="string" value="fb96a0addd59b018"/>
-				</entry>
-				<entry key="height" type="number" value="600"/>
-				<entry key="name" type="string" value="none"/>
-				<entry key="permanent" type="boolean" value="false"/>
-				<entry key="position" type="vector3" value="-3748 -4840 -719"/>
-				<entry key="prio" type="number" value="100"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="transition_time" type="number" value="1"/>
-				<entry key="type" type="string" value="box"/>
-				<entry key="width" type="number" value="2000"/>
-			</entry>
-			<entry index="5" type="table">
-				<entry key="bezier_curve" type="table">
-					<entry index="1" type="number" value="0"/>
-					<entry index="2" type="number" value="0"/>
-					<entry index="3" type="number" value="1"/>
-					<entry index="4" type="number" value="1"/>
-				</entry>
-				<entry key="depth" type="number" value="2800"/>
-				<entry key="environment" type="string" value=".map/environments/basement"/>
-				<entry key="filter_list" type="table">
-					<entry index="1" type="string" value="cee9c44e4f1ef6e2"/>
-					<entry index="2" type="string" value="644be78b2651c798"/>
-					<entry index="3" type="string" value="c25af559c7e1d69c"/>
-					<entry index="4" type="string" value="ac403b8f792138ad"/>
-					<entry index="5" type="string" value="457904ce74fa1005"/>
-					<entry index="6" type="string" value="20458ffc6d388c0f"/>
-					<entry index="7" type="string" value="cd0d63956c019dc0"/>
-					<entry index="8" type="string" value="6fcd51beb559e85c"/>
-					<entry index="9" type="string" value="d3c16b0bb77370d4"/>
-					<entry index="10" type="string" value="35325076eb5a2684"/>
-					<entry index="11" type="string" value="cfd999417e8eb72d"/>
-					<entry index="12" type="string" value="c6b3fa02d5ee12b1"/>
-					<entry index="13" type="string" value="c45e91f4a9d72822"/>
-					<entry index="14" type="string" value="48b53ca3bf280008"/>
-					<entry index="15" type="string" value="e36a12365a151b14"/>
-					<entry index="16" type="string" value="6174ec93d0eeeacd"/>
-					<entry index="17" type="string" value="79632d2b8dab1c23"/>
-					<entry index="18" type="string" value="36ab89d313fd9a9b"/>
-					<entry index="19" type="string" value="b5663c81d7db7310"/>
-					<entry index="20" type="string" value="13d7817215360151"/>
-					<entry index="21" type="string" value="76078014daa529c8"/>
-					<entry index="22" type="string" value="fb725a62e7857072"/>
-					<entry index="23" type="string" value="312d3f85560b8f82"/>
-					<entry index="24" type="string" value="002c8c522e139b16"/>
-					<entry index="25" type="string" value="72c5ffc46ab06e53"/>
-					<entry index="26" type="string" value="fb96a0addd59b018"/>
-				</entry>
-				<entry key="height" type="number" value="600"/>
-				<entry key="name" type="string" value="none"/>
-				<entry key="permanent" type="boolean" value="false"/>
-				<entry key="position" type="vector3" value="-5178 778 -719"/>
-				<entry key="prio" type="number" value="100"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="transition_time" type="number" value="1"/>
-				<entry key="type" type="string" value="box"/>
-				<entry key="width" type="number" value="2000"/>
-			</entry>
-			<entry index="6" type="table">
-				<entry key="bezier_curve" type="table">
-					<entry index="1" type="number" value="0"/>
-					<entry index="2" type="number" value="0"/>
-					<entry index="3" type="number" value="1"/>
-					<entry index="4" type="number" value="1"/>
-				</entry>
-				<entry key="depth" type="number" value="2800"/>
-				<entry key="environment" type="string" value=".map/environments/basement"/>
-				<entry key="filter_list" type="table">
-					<entry index="1" type="string" value="cee9c44e4f1ef6e2"/>
-					<entry index="2" type="string" value="644be78b2651c798"/>
-					<entry index="3" type="string" value="c25af559c7e1d69c"/>
-					<entry index="4" type="string" value="ac403b8f792138ad"/>
-					<entry index="5" type="string" value="457904ce74fa1005"/>
-					<entry index="6" type="string" value="20458ffc6d388c0f"/>
-					<entry index="7" type="string" value="cd0d63956c019dc0"/>
-					<entry index="8" type="string" value="6fcd51beb559e85c"/>
-					<entry index="9" type="string" value="d3c16b0bb77370d4"/>
-					<entry index="10" type="string" value="35325076eb5a2684"/>
-					<entry index="11" type="string" value="cfd999417e8eb72d"/>
-					<entry index="12" type="string" value="c6b3fa02d5ee12b1"/>
-					<entry index="13" type="string" value="c45e91f4a9d72822"/>
-					<entry index="14" type="string" value="48b53ca3bf280008"/>
-					<entry index="15" type="string" value="e36a12365a151b14"/>
-					<entry index="16" type="string" value="6174ec93d0eeeacd"/>
-					<entry index="17" type="string" value="79632d2b8dab1c23"/>
-					<entry index="18" type="string" value="36ab89d313fd9a9b"/>
-					<entry index="19" type="string" value="b5663c81d7db7310"/>
-					<entry index="20" type="string" value="13d7817215360151"/>
-					<entry index="21" type="string" value="76078014daa529c8"/>
-					<entry index="22" type="string" value="fb725a62e7857072"/>
-					<entry index="23" type="string" value="312d3f85560b8f82"/>
-					<entry index="24" type="string" value="002c8c522e139b16"/>
-					<entry index="25" type="string" value="72c5ffc46ab06e53"/>
-					<entry index="26" type="string" value="fb96a0addd59b018"/>
-				</entry>
-				<entry key="height" type="number" value="600"/>
-				<entry key="name" type="string" value="none"/>
-				<entry key="permanent" type="boolean" value="false"/>
-				<entry key="position" type="vector3" value="-5178 778 -719"/>
-				<entry key="prio" type="number" value="100"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="transition_time" type="number" value="1"/>
-				<entry key="type" type="string" value="box"/>
-				<entry key="width" type="number" value="2000"/>
-			</entry>
-			<entry index="7" type="table">
-				<entry key="bezier_curve" type="table">
-					<entry index="1" type="number" value="0"/>
-					<entry index="2" type="number" value="0"/>
-					<entry index="3" type="number" value="1"/>
-					<entry index="4" type="number" value="1"/>
-				</entry>
 				<entry key="depth" type="number" value="5300"/>
 				<entry key="environment" type="string" value=".map/environments/escape"/>
 				<entry key="filter_list" type="table">
@@ -1399,6 +1260,147 @@
 				<entry key="transition_time" type="number" value="2"/>
 				<entry key="type" type="string" value="box"/>
 				<entry key="width" type="number" value="3000"/>
+			</entry>
+			<entry index="5" type="table">
+				<entry key="bezier_curve" type="table">
+					<entry index="1" type="number" value="0"/>
+					<entry index="2" type="number" value="0"/>
+					<entry index="3" type="number" value="1"/>
+					<entry index="4" type="number" value="1"/>
+				</entry>
+				<entry key="depth" type="number" value="2700"/>
+				<entry key="environment" type="string" value=".map/environments/basement"/>
+				<entry key="filter_list" type="table">
+					<entry index="1" type="string" value="cee9c44e4f1ef6e2"/>
+					<entry index="2" type="string" value="644be78b2651c798"/>
+					<entry index="3" type="string" value="c25af559c7e1d69c"/>
+					<entry index="4" type="string" value="ac403b8f792138ad"/>
+					<entry index="5" type="string" value="457904ce74fa1005"/>
+					<entry index="6" type="string" value="20458ffc6d388c0f"/>
+					<entry index="7" type="string" value="cd0d63956c019dc0"/>
+					<entry index="8" type="string" value="6fcd51beb559e85c"/>
+					<entry index="9" type="string" value="d3c16b0bb77370d4"/>
+					<entry index="10" type="string" value="35325076eb5a2684"/>
+					<entry index="11" type="string" value="cfd999417e8eb72d"/>
+					<entry index="12" type="string" value="c6b3fa02d5ee12b1"/>
+					<entry index="13" type="string" value="c45e91f4a9d72822"/>
+					<entry index="14" type="string" value="48b53ca3bf280008"/>
+					<entry index="15" type="string" value="e36a12365a151b14"/>
+					<entry index="16" type="string" value="6174ec93d0eeeacd"/>
+					<entry index="17" type="string" value="79632d2b8dab1c23"/>
+					<entry index="18" type="string" value="36ab89d313fd9a9b"/>
+					<entry index="19" type="string" value="b5663c81d7db7310"/>
+					<entry index="20" type="string" value="13d7817215360151"/>
+					<entry index="21" type="string" value="76078014daa529c8"/>
+					<entry index="22" type="string" value="fb725a62e7857072"/>
+					<entry index="23" type="string" value="312d3f85560b8f82"/>
+					<entry index="24" type="string" value="002c8c522e139b16"/>
+					<entry index="25" type="string" value="72c5ffc46ab06e53"/>
+					<entry index="26" type="string" value="fb96a0addd59b018"/>
+				</entry>
+				<entry key="height" type="number" value="600"/>
+				<entry key="name" type="string" value="none"/>
+				<entry key="permanent" type="boolean" value="false"/>
+				<entry key="position" type="vector3" value="-3748 -4840 -719"/>
+				<entry key="prio" type="number" value="100"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="transition_time" type="number" value="1"/>
+				<entry key="type" type="string" value="box"/>
+				<entry key="width" type="number" value="2000"/>
+			</entry>
+			<entry index="6" type="table">
+				<entry key="bezier_curve" type="table">
+					<entry index="1" type="number" value="0"/>
+					<entry index="2" type="number" value="0"/>
+					<entry index="3" type="number" value="1"/>
+					<entry index="4" type="number" value="1"/>
+				</entry>
+				<entry key="depth" type="number" value="2700"/>
+				<entry key="environment" type="string" value=".map/environments/basement"/>
+				<entry key="filter_list" type="table">
+					<entry index="1" type="string" value="cee9c44e4f1ef6e2"/>
+					<entry index="2" type="string" value="644be78b2651c798"/>
+					<entry index="3" type="string" value="c25af559c7e1d69c"/>
+					<entry index="4" type="string" value="ac403b8f792138ad"/>
+					<entry index="5" type="string" value="457904ce74fa1005"/>
+					<entry index="6" type="string" value="20458ffc6d388c0f"/>
+					<entry index="7" type="string" value="cd0d63956c019dc0"/>
+					<entry index="8" type="string" value="6fcd51beb559e85c"/>
+					<entry index="9" type="string" value="d3c16b0bb77370d4"/>
+					<entry index="10" type="string" value="35325076eb5a2684"/>
+					<entry index="11" type="string" value="cfd999417e8eb72d"/>
+					<entry index="12" type="string" value="c6b3fa02d5ee12b1"/>
+					<entry index="13" type="string" value="c45e91f4a9d72822"/>
+					<entry index="14" type="string" value="48b53ca3bf280008"/>
+					<entry index="15" type="string" value="e36a12365a151b14"/>
+					<entry index="16" type="string" value="6174ec93d0eeeacd"/>
+					<entry index="17" type="string" value="79632d2b8dab1c23"/>
+					<entry index="18" type="string" value="36ab89d313fd9a9b"/>
+					<entry index="19" type="string" value="b5663c81d7db7310"/>
+					<entry index="20" type="string" value="13d7817215360151"/>
+					<entry index="21" type="string" value="76078014daa529c8"/>
+					<entry index="22" type="string" value="fb725a62e7857072"/>
+					<entry index="23" type="string" value="312d3f85560b8f82"/>
+					<entry index="24" type="string" value="002c8c522e139b16"/>
+					<entry index="25" type="string" value="72c5ffc46ab06e53"/>
+					<entry index="26" type="string" value="fb96a0addd59b018"/>
+				</entry>
+				<entry key="height" type="number" value="600"/>
+				<entry key="name" type="string" value="none"/>
+				<entry key="permanent" type="boolean" value="false"/>
+				<entry key="position" type="vector3" value="-3748 -4840 -719"/>
+				<entry key="prio" type="number" value="100"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="transition_time" type="number" value="1"/>
+				<entry key="type" type="string" value="box"/>
+				<entry key="width" type="number" value="2000"/>
+			</entry>
+			<entry index="7" type="table">
+				<entry key="bezier_curve" type="table">
+					<entry index="1" type="number" value="0"/>
+					<entry index="2" type="number" value="0"/>
+					<entry index="3" type="number" value="1"/>
+					<entry index="4" type="number" value="1"/>
+				</entry>
+				<entry key="depth" type="number" value="2800"/>
+				<entry key="environment" type="string" value=".map/environments/basement"/>
+				<entry key="filter_list" type="table">
+					<entry index="1" type="string" value="cee9c44e4f1ef6e2"/>
+					<entry index="2" type="string" value="644be78b2651c798"/>
+					<entry index="3" type="string" value="c25af559c7e1d69c"/>
+					<entry index="4" type="string" value="ac403b8f792138ad"/>
+					<entry index="5" type="string" value="457904ce74fa1005"/>
+					<entry index="6" type="string" value="20458ffc6d388c0f"/>
+					<entry index="7" type="string" value="cd0d63956c019dc0"/>
+					<entry index="8" type="string" value="6fcd51beb559e85c"/>
+					<entry index="9" type="string" value="d3c16b0bb77370d4"/>
+					<entry index="10" type="string" value="35325076eb5a2684"/>
+					<entry index="11" type="string" value="cfd999417e8eb72d"/>
+					<entry index="12" type="string" value="c6b3fa02d5ee12b1"/>
+					<entry index="13" type="string" value="c45e91f4a9d72822"/>
+					<entry index="14" type="string" value="48b53ca3bf280008"/>
+					<entry index="15" type="string" value="e36a12365a151b14"/>
+					<entry index="16" type="string" value="6174ec93d0eeeacd"/>
+					<entry index="17" type="string" value="79632d2b8dab1c23"/>
+					<entry index="18" type="string" value="36ab89d313fd9a9b"/>
+					<entry index="19" type="string" value="b5663c81d7db7310"/>
+					<entry index="20" type="string" value="13d7817215360151"/>
+					<entry index="21" type="string" value="76078014daa529c8"/>
+					<entry index="22" type="string" value="fb725a62e7857072"/>
+					<entry index="23" type="string" value="312d3f85560b8f82"/>
+					<entry index="24" type="string" value="002c8c522e139b16"/>
+					<entry index="25" type="string" value="72c5ffc46ab06e53"/>
+					<entry index="26" type="string" value="fb96a0addd59b018"/>
+				</entry>
+				<entry key="height" type="number" value="600"/>
+				<entry key="name" type="string" value="none"/>
+				<entry key="permanent" type="boolean" value="false"/>
+				<entry key="position" type="vector3" value="-5178 778 -719"/>
+				<entry key="prio" type="number" value="100"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="transition_time" type="number" value="1"/>
+				<entry key="type" type="string" value="box"/>
+				<entry key="width" type="number" value="2000"/>
 			</entry>
 			<entry index="8" type="table">
 				<entry key="bezier_curve" type="table">
@@ -4248,7 +4250,6 @@
 					<entry index="100661" type="boolean" value="true"/>
 					<entry index="100662" type="boolean" value="true"/>
 					<entry index="100663" type="boolean" value="true"/>
-					<entry index="100664" type="boolean" value="true"/>
 					<entry index="100710" type="boolean" value="true"/>
 					<entry index="100715" type="boolean" value="true"/>
 					<entry index="100716" type="boolean" value="true"/>
@@ -4808,7 +4809,6 @@
 					<entry index="102060" type="boolean" value="true"/>
 					<entry index="102062" type="boolean" value="true"/>
 					<entry index="102447" type="boolean" value="true"/>
-					<entry index="102876" type="boolean" value="true"/>
 					<entry index="102920" type="boolean" value="true"/>
 					<entry index="102921" type="boolean" value="true"/>
 					<entry index="102922" type="boolean" value="true"/>
@@ -4827,17 +4827,11 @@
 					<entry index="105267" type="boolean" value="true"/>
 					<entry index="105276" type="boolean" value="true"/>
 					<entry index="105280" type="boolean" value="true"/>
-					<entry index="105297" type="boolean" value="true"/>
-					<entry index="105299" type="boolean" value="true"/>
 					<entry index="105318" type="boolean" value="true"/>
-					<entry index="105319" type="boolean" value="true"/>
 					<entry index="105321" type="boolean" value="true"/>
-					<entry index="105322" type="boolean" value="true"/>
 					<entry index="105324" type="boolean" value="true"/>
 					<entry index="105325" type="boolean" value="true"/>
-					<entry index="105326" type="boolean" value="true"/>
 					<entry index="105327" type="boolean" value="true"/>
-					<entry index="105328" type="boolean" value="true"/>
 					<entry index="105329" type="boolean" value="true"/>
 					<entry index="105330" type="boolean" value="true"/>
 					<entry index="105331" type="boolean" value="true"/>

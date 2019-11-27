@@ -3925,6 +3925,18 @@
 		<table>
 			<unit_data _prev_pos="-4023.43 -2903.06 5017.05" _prev_rot="0 0 0 -1" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-400.57 16.3901 0.0498047" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/bnk/bnk_int_fence_wall" name_id="bnk_int_fence_wall_005" position="-4023.43 -2903.06 5017.05" rotation="0 0 -0 -1" unit_id="301111"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-549.75 -2982.67 5050.8" _prev_rot="-0.0308436 0.706434 0.706434 0.0308435" continent="escape_maze" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_006" position="-550.186 -2982.67 5055.78" rotation="-0.0308436 0.706434 0.706434 0.0308435" unit_id="301112">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_mf" font_color="1 1 1" font_size="0.58" render_template="diffuse_vc_decal" text="Put my name in the game                                      - marionto phat" vertical="center" word_wrap="false" wrap="true">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="0.57"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
