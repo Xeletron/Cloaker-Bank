@@ -8,7 +8,6 @@
 	"hud_clk_hold_turn_gas"	:	"Hold $BTN_INTERACT to turn on the gas",
 	"hud_clk_hold_turn_valve"	:	"Hold $BTN_INTERACT to turn the valve",
 	"hud_action_clk_valve"	:	"Turning valve",
-	"hud_clk_numpad"	:	"Press $BTN_INTERACT to close the shutters",
 	"hud_action_clk_nocodes"	:	"You need the shutter codes",
 	"clk_1_text"	:	"Enter the bank",
 	"clk_2_text"	:	"Find the manager",
