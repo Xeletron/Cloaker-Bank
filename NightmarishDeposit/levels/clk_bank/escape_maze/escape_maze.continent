@@ -3568,7 +3568,7 @@
 			<unit_data _prev_pos="-5623 -2886.67 5017" _prev_rot="0 0 1 -4.37112e-008" continent="escape_maze" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_wall_b_4m" name_id="gov_c_int_wall_b_4m_180" position="-5410 -2886.97 5017" rotation="0 0 1 -4.37114e-008" unit_id="300801"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-4373.76 -2646.03 5017" _prev_rot="0 0 -0.130526 -0.991445" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2_cash/safes/bah/safe/eco_safe_bah" name_id="eco_safe_bah_001" position="-4373.76 -2646.03 5017" rotation="0 0 -0.130526 -0.991445" unit_id="300995"/>
+			<unit_data _prev_pos="-4372.98 -2648.93 5017" _prev_rot="0 0 -0.130526 -0.991445" continent="escape_maze" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2_cash/safes/bah/safe/eco_safe_bah" name_id="eco_safe_bah_001" position="-4366.22 -2647.12 5017" rotation="0 0 -0.130526 -0.991445" unit_id="300995"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4239.04 -2565.06 5257.18" _prev_rot="0 0 -1.93715e-007 -1" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="151.086 43.343 240.18" local_rot="0 0 -0.130526 0.991445" mesh_variation="template_stocks" name="units/payday2/props/gen_prop_ticker/gen_prop_stock_ticker" name_id="gen_prop_stock_ticker_003" position="-4239.04 -2565.06 5257.18" rotation="0 0 -1.93715e-007 -1" unit_id="300996"/>
@@ -3936,6 +3936,51 @@
 					</shape>
 				</editable_gui>
 			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6918.27 -9317.42 1033" _prev_rot="-2.69644e-009 6.17584e-008 0.67559 -0.737278" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bottom_a_4x12m" name_id="gov_c_ext_bottom_a_4x12m_259" position="-6918.27 -9317.42 97" rotation="0 0 0.67559 -0.737277" unit_id="301113"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6927.39 -9243.81 1033" _prev_rot="-5.35353e-008 3.09085e-008 0.984808 0.173649" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="-74.1251 -2.66978 6.71362e-006" local_rot="-6.03961e-014 6.43929e-015 -0.843392 0.537299" name="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bottom_a_8x12m" name_id="gov_c_ext_bottom_a_8x12m_277" position="-6927.39 -9243.81 97" rotation="4.01784e-014 -4.55506e-014 0.984808 0.173649" unit_id="301114"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6166 -9664 1033" _prev_rot="-4.73548e-008 3.97353e-008 1 2.98023e-008" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="410.827 719.201 -9.87901e-005" local_rot="1.77636e-014 3.04201e-014 -0.737278 0.67559" name="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bottom_a_4x12m" name_id="gov_c_ext_bottom_a_4x12m_260" position="-6166 -9664 96.9999" rotation="-3.36482e-014 -1.04272e-014 1 5.06639e-007" unit_id="301115"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5873 -9624 1133" _prev_rot="-4.73548e-008 3.97353e-008 1 2.98023e-008" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="396.516 1014.57 99.9999" local_rot="1.77636e-014 3.04201e-014 -0.737278 0.67559" name="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bottom_a_8x12m" name_id="gov_c_ext_bottom_a_8x12m_278" position="-5873 -9624 197" rotation="-3.36482e-014 -1.04272e-014 1 5.06639e-007" unit_id="301116"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5253 -9624 1133" _prev_rot="6.1582e-008 5.38778e-009 -0.707107 -0.707107" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="450.553 1632.21 99.9998" local_rot="-6.66134e-016 -1.82077e-014 0.999048 0.0436199" name="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bottom_a_8x12m" name_id="gov_c_ext_bottom_a_8x12m_279" position="-5253 -9624 197" rotation="1.2792e-014 1.29741e-014 -0.707106 -0.707107" unit_id="301117"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5238 -10594 1133" _prev_rot="-4.73548e-008 3.97353e-008 1 2.98023e-008" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="1418.17 1562.61 99.9997" local_rot="1.77636e-014 3.04201e-014 -0.737278 0.67559" name="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bottom_a_4x12m" name_id="gov_c_ext_bottom_a_4x12m_261" position="-5238 -10594 197" rotation="-3.36482e-014 -1.04272e-014 1 5.06639e-007" unit_id="301118"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4793 -10419 1133" _prev_rot="-4.73548e-008 3.97353e-008 1 2.98023e-008" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="1282.62 2021.17 99.9997" local_rot="1.77636e-014 3.04201e-014 -0.737278 0.67559" name="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bottom_a_8x12m" name_id="gov_c_ext_bottom_a_8x12m_280" position="-4793 -10419 197" rotation="-3.36482e-014 -1.04272e-014 1 5.06639e-007" unit_id="301119"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3973 -10594 1133" _prev_rot="-4.73548e-008 3.97353e-008 1 2.98023e-008" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="1528.42 2822.8 99.9996" local_rot="1.77636e-014 3.04201e-014 -0.737278 0.67559" name="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bottom_a_4x12m" name_id="gov_c_ext_bottom_a_4x12m_262" position="-3973 -10594 197" rotation="-3.36482e-014 -1.04272e-014 1 5.06639e-007" unit_id="301120"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3533 -10424 1133" _prev_rot="-5.38779e-009 6.1582e-008 0.707107 -0.707107" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="1397.42 3275.94 99.9996" local_rot="2.4869e-014 6.43929e-015 -0.0436199 0.999048" name="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bottom_a_8x12m" name_id="gov_c_ext_bottom_a_8x12m_281" position="-3533 -10424 197" rotation="-2.26857e-014 1.20537e-014 0.707107 -0.707106" unit_id="301121"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3795 -9624 1133" _prev_rot="-4.73548e-008 3.97353e-008 1 2.98023e-008" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="577.627 3084.66 99.9997" local_rot="1.77636e-014 3.04201e-014 -0.737278 0.67559" name="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bottom_a_8x12m" name_id="gov_c_ext_bottom_a_8x12m_282" position="-3795 -9624 197" rotation="-3.36482e-014 -1.04272e-014 1 5.06639e-007" unit_id="301122"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3052 -9664 1033" _prev_rot="-4.73548e-008 3.97353e-008 1 2.98023e-008" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="682.233 3821.35 -0.000393716" local_rot="1.77636e-014 3.04201e-014 -0.737278 0.67559" name="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bottom_a_4x12m" name_id="gov_c_ext_bottom_a_4x12m_263" position="-3052 -9664 96.9996" rotation="-3.36482e-014 -1.04272e-014 1 5.06639e-007" unit_id="301123"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2609 -9498 1033" _prev_rot="-4.73548e-008 3.97353e-008 1 2.98023e-008" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="555.475 4277.13 -0.00042248" local_rot="1.77636e-014 3.04201e-014 -0.737278 0.67559" name="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bottom_a_8x12m" name_id="gov_c_ext_bottom_a_8x12m_283" position="-2609 -9498 96.9996" rotation="-3.36482e-014 -1.04272e-014 1 5.06639e-007" unit_id="301124"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1786 -9664 1033" _prev_rot="-4.73548e-008 3.97353e-008 1 2.98023e-008" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="792.573 5082.53 -0.000513618" local_rot="1.77636e-014 3.04201e-014 -0.737278 0.67559" name="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bottom_a_4x12m" name_id="gov_c_ext_bottom_a_4x12m_264" position="-1786 -9664 96.9995" rotation="-3.36482e-014 -1.04272e-014 1 5.06639e-007" unit_id="301125"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1377.21 -9511.64 1033" _prev_rot="-3.09086e-008 5.35352e-008 0.939693 -0.34202" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="676.421 5503.05 -0.000540226" local_rot="-8.52651e-014 2.22045e-015 -0.461749 0.887011" name="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bottom_a_8x12m" name_id="gov_c_ext_bottom_a_8x12m_284" position="-1377.21 -9511.65 96.9995" rotation="6.13639e-014 -5.92414e-014 0.939693 -0.342019" unit_id="301126"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-595.581 -8962.77 1033" _prev_rot="-2.69644e-009 6.17584e-008 0.67559 -0.737278" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="197.764 6329.54 -0.000570635" local_rot="0 0 0 1" name="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bottom_a_4x12m" name_id="gov_c_ext_bottom_a_4x12m_265" position="-595.58 -8962.78 96.9994" rotation="0 0 0.67559 -0.737277" unit_id="301127"/>
 		</table>
 	</statics>
 	<values>
