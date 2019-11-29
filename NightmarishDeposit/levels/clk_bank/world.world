@@ -183,13 +183,19 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-3577.38 -634.063 -1"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 1.42109e-014 -1"/>
 				<entry key="continent" type="string" value="world"/>
+				<entry key="disable_collision" type="boolean" value="false"/>
+				<entry key="disable_on_ai_graph" type="boolean" value="false"/>
+				<entry key="disable_shadows" type="boolean" value="false"/>
+				<entry key="hide_on_projection_light" type="boolean" value="false"/>
 				<entry key="local_pos" type="vector3" value="0 0 0"/>
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_010"/>
-				<entry key="position" type="vector3" value="-3577.38 -634.063 -1"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="position" type="vector3" value="-3983.38 -634.063 -1"/>
+				<entry key="rotation" type="quaternion" value="0 0 1.42109e-014 -1"/>
 				<entry key="unit_id" type="number" value="9"/>
 			</entry>
 		</entry>
@@ -1067,7 +1073,7 @@
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_048"/>
-				<entry key="position" type="vector3" value="-2394.26 -14775.9 3597.04"/>
+				<entry key="position" type="vector3" value="-2932 -14800.7 3597.04"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="48"/>
 			</entry>
