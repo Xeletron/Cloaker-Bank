@@ -14,9 +14,7 @@ function ElementApplyMask:on_executed(instigator)
 	if not self._values.enabled then
 		return
 	end
-
 	if self._values.unit_name ~= "none" then
-		log(tostring(instigator))
 		if not managers.dyn_resource:is_resource_ready(Idstring("unit"), Idstring(self._values.unit_name), managers.dyn_resource.DYN_RESOURCES_PACKAGE) then
 			managers.dyn_resource:load(Idstring("unit"), Idstring(self._values.unit_name), managers.dyn_resource.DYN_RESOURCES_PACKAGE)
 		end

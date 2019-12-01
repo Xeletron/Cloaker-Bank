@@ -1,7 +1,7 @@
 <table global_key="NightmarishDeposit" name="NightmarishDeposit">
 	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
 	<Localization default="english.txt" directory="loc"/>
-	<level ai_group_type="America" briefing_dialog="" id="clk_bank" intro_event="" max_bags="54" team_ai_off="false">
+	<level ai_group_type="america" briefing_dialog="" id="clk_bank" intro_event="" max_bags="54" team_ai_off="false">
 		<add file="levels/clk_bank/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -12,6 +12,7 @@
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
 			<hook file="missiondoortweakdata.lua" source_file="lib/tweak_data/missiondoortweakdata"/>
+			<hook file="fpcameraplayerbase.lua" source_file="lib/units/cameras/fpcameraplayerbase"/>
 			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
 		</hooks>
 		<include directory="levels/clk_bank">
@@ -25,9 +26,13 @@
 			<file file="escape_maze/escape_maze.mission" type="generic_xml"/>
 			<file file="world/world.continent" type="custom_xml"/>
 			<file file="world/world.mission" type="generic_xml"/>
+			<file file="escape_office/escape_office.continent" type="custom_xml"/>
+			<file file="escape_office/escape_office.mission" type="generic_xml"/>
 			<file file="editor_only/editor_only.continent" type="custom_xml"/>
 			<file file="editor_only/editor_only.mission" type="generic_xml"/>
 			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/cutscene.environment" type="custom_xml"/>
+			<file file="environments/miffed.environment" type="custom_xml"/>
 			<file file="environments/angry.environment" type="custom_xml"/>
 			<file file="environments/escape.environment" type="custom_xml"/>
 			<file file="environments/outside.environment" type="custom_xml"/>
@@ -86,18 +91,20 @@
 		</crimenet_callouts>
 		<crimenet_videos>
 			<value_node value="cn_branchbank2"/>
+			<value_node value="movies/cn_branchbank1"/>
+			<value_node value="movies/cn_branchbank3"/>
 		</crimenet_videos>
 		<debrief_event>
 			<value_node value=""/>
 		</debrief_event>
 		<experience_mul>
-			<value_node value="1"/>
-			<value_node value="1"/>
-			<value_node value="1"/>
-			<value_node value="1"/>
-			<value_node value="3"/>
-			<value_node value="3"/>
-			<value_node value="3"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
 		</experience_mul>
 		<max_mission_xp>
 			<value_node value="8000"/>
@@ -109,13 +116,13 @@
 			<value_node value="8000"/>
 		</max_mission_xp>
 		<min_mission_xp>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
 		</min_mission_xp>
 		<payout>
 			<value_node value="6000"/>

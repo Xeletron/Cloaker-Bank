@@ -1,5 +1,6 @@
 <table>
 	<editor_only base_id="200000" editor_only="false" name="editor_only"/>
 	<escape_maze base_id="300000" name="escape_maze"/>
+	<escape_office base_id="400000" name="escape_office"/>
 	<world base_id="100000" editor_only="false" name="world"/>
 </table>

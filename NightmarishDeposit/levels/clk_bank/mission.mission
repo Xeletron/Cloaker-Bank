@@ -1,5 +1,6 @@
 <table>
 	<editor_only file="editor_only/editor_only"/>
 	<escape_maze file="escape_maze/escape_maze"/>
+	<escape_office file="escape_office/escape_office"/>
 	<world file="world/world"/>
 </table>

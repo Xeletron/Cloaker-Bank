@@ -1,6 +1,8 @@
 local Path = NightmarishDeposit.ModPath
 
 dofile(Path .. "Hooks/ElementApplyMask.lua")
+dofile(Path .. "Hooks/ElementFovAnim.lua")
+dofile(Path .. "Hooks/ElementCutscene.lua")
 
 function MissionManager:get_mission_element(element_id)
 	for _, data in pairs(self._scripts) do
