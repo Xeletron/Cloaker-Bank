@@ -17,10 +17,10 @@
 			<hook file="Setup.lua" source_file="lib/setups/gamesetup"/>
 		</hooks>
 		<include directory="levels/clk_bank">
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
 			<file file="mission.mission" type="custom_xml"/>
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world_sounds.world_sounds" type="generic_xml"/>
 			<file file="world_cameras.world_cameras" type="custom_xml"/>
 			<file file="escape_maze/escape_maze.continent" type="custom_xml"/>

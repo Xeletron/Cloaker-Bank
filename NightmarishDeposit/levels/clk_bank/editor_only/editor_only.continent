@@ -937,6 +937,9 @@
 		<table>
 			<unit_data _prev_pos="-3312 -3131 777" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 99 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_1" name_id="navigation_blocker_1_039" only_exists_in_editor="true" position="-2731 -3131 777" rotation="0 0 0 -1" unit_id="200296"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-3389.03 -1251.87 775" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_10" name_id="navigation_blocker_10_025" only_exists_in_editor="true" position="-3416.03 -1251.87 775" rotation="0 0 0.707107 -0.707107" unit_id="200297"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
