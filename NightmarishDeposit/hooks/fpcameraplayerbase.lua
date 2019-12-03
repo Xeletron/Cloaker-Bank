@@ -6,13 +6,17 @@ Hooks:PostHook(FPCameraPlayerBase, "clbk_stance_entered", "clk_fov_anim", functi
 end)
 
 function FPCameraPlayerBase:animate_fov_custom(new_fov, duration)
-    local transition = {}
-    self._fov.transition_custom = transition
-    transition.end_fov = new_fov
-    transition.start_fov = self._fov.fov
-    transition.start_t = managers.player:player_timer():time()
-    transition.duration = duration
-    self._fov.transition = transition
+    if duration > 0 then
+        local transition = {}
+        self._fov.transition_custom = transition
+        transition.end_fov = new_fov
+        transition.start_fov = self._fov.fov
+        transition.start_t = managers.player:player_timer():time()
+        transition.duration = duration
+        self._fov.transition = transition
+    else
+        self._fov.transition_custom = nil 
+    end
 end
 
 function FPCameraPlayerBase:set_cutscene(position, rotation, duration)

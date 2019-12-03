@@ -14,7 +14,8 @@ function ElementFovAnim:on_executed(instigator)
 		if self._values.fov > 0 then
 			player:camera()._camera_unit:base():animate_fov_custom(self._values.fov, self._values.duration)
 		else
-			player:movement():current_state():_stance_entered()
+			player:camera()._camera_unit:base():animate_fov_custom(0, 0)
+			player:movement():current_state():update_fov_external()
 		end
 	end
 
