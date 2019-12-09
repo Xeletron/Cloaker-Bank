@@ -17,10 +17,10 @@
 			<hook file="Setup.lua" source_file="lib/setups/gamesetup"/>
 		</hooks>
 		<include directory="levels/clk_bank">
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
 			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world_sounds.world_sounds" type="generic_xml"/>
 			<file file="world_cameras.world_cameras" type="custom_xml"/>
 			<file file="escape_maze/escape_maze.continent" type="custom_xml"/>
@@ -67,6 +67,9 @@
 			<value_node value="levels/narratives/bain/big/props/props"/>
 			<value_node value="levels/instances/unique/help/help_flame/world"/>
 			<value_node value="levels/instances/unique/help/help_flame/world/world"/>
+			<value_node value="levels/instances/unique/help/help_king_cloaker_drill/world"/>
+			<value_node value="levels/instances/unique/help/help_king_cloaker_drill/world/world"/>
+			<value_node value="levels/instances/unique/help/help_king_cloaker_drill/world_sounds"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
