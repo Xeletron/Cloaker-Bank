@@ -45108,6 +45108,14 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101094"/>
 						</entry>
+						<entry index="14" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101067"/>
+						</entry>
+						<entry index="15" type="table">
+							<entry key="delay" type="number" value="1"/>
+							<entry key="id" type="number" value="101122"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-3835 -646 1035"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
@@ -46746,7 +46754,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-3403.76 -1083.26 -5174.48"/>
+					<entry key="position" type="vector3" value="-3414 -1073 -5163"/>
 					<entry key="rotation" type="quaternion" value="0 0 -0.34202 -0.939693"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -47151,6 +47159,48 @@
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_camera_shake" type="boolean" value="true"/>
 					<entry key="use_rumble" type="boolean" value="true"/>
+				</entry>
+			</entry>
+			<entry index="1128" type="table">
+				<entry key="class" type="string" value="ElementEnemyPreferedRemove"/>
+				<entry key="editor_name" type="string" value="enemy_remove_stage2"/>
+				<entry key="id" type="number" value="101067"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100969"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-3811.02 -655.531 880"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1129" type="table">
+				<entry key="class" type="string" value="ElementEnemyPreferedAdd"/>
+				<entry key="editor_name" type="string" value="enemy_add_stage3"/>
+				<entry key="id" type="number" value="101122"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-3810 -655 850"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="spawn_groups" type="table">
+						<entry index="1" type="number" value="100968"/>
+						<entry index="2" type="number" value="100980"/>
+						<entry index="3" type="number" value="100992"/>
+					</entry>
+					<entry key="spawn_points" type="table">
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>

@@ -1,6 +1,7 @@
 Hooks:Add('NetworkReceivedData', 'NetworkReceivedData_CLK', function(sender, messageType, data)
 	if messageType == "clkCutscene" then
 		local decode = json.decode(data)
+		log(tostring(decode))
 		local position = data[1]
 		local pos = position and Vector3(position[1], position[2], position[3]) or Vector3()
 		local rotation = data[2]
