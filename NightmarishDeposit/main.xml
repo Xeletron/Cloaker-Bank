@@ -13,6 +13,7 @@
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
 			<hook file="missiondoortweakdata.lua" source_file="lib/tweak_data/missiondoortweakdata"/>
 			<hook file="fpcameraplayerbase.lua" source_file="lib/units/cameras/fpcameraplayerbase"/>
+			<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
 			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
 			<hook file="Setup.lua" source_file="lib/setups/gamesetup"/>
 		</hooks>

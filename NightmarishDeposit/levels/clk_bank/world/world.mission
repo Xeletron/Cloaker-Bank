@@ -46754,7 +46754,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-3414 -1073 -5163"/>
+					<entry key="position" type="vector3" value="-3410.79 -1076.83 -5170"/>
 					<entry key="rotation" type="quaternion" value="0 0 -0.34202 -0.939693"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
