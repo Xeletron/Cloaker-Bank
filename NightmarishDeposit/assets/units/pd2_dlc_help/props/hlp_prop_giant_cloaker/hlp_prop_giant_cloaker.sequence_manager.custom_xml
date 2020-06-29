@@ -1,0 +1,415 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'anim_enter'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'enter'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'play'" event="'hlp_clk_appear'" source="'snd_body'"/>
+			<run_sequence name="'int_seq_enter_finished'" start_time="90/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_climb_bridge'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'climb_bridge'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'play'" event="'hlp_clk_climb_train'" source="'snd_body'"/>
+			<sound action="'play'" event="'hlp_clk_appear'" source="'snd_body'"/>
+			<sound action="'play'" event="'hlp_clk_disappear'" source="'snd_body'" start_time="390/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_zipline_attack'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'zipline_attack'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'play'" event="'hlp_clk_zipline_attack'" source="'snd_body'"/>
+			<sound action="'play'" event="'hlp_clk_disappear'" source="'snd_body'" start_time="160/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_angry_enter'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'angry_enter'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'play'" event="'hlp_clk_appear'" source="'snd_body'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_enter_finished'" triggable="false"/>
+		<sequence editable_state="false" name="'done_loop'" triggable="false"/>
+		<sequence editable_state="true" name="'anim_enter_drills_enabled'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'drill_enter'"/>
+			<graphic_group name="'drill_r'" visibility="true"/>
+			<graphic_group name="'drill_l'" visibility="true"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<body enabled="true" name="'body_rill_l'"/>
+			<body enabled="true" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'play'" event="'hlp_clk_appear'" source="'snd_body'"/>
+			<sound action="'play'" event="'clk_hlp_drill_idle_enter'" source="'snd_drill'"/>
+			<run_sequence name="'anim_enter_drills_finished'" start_time="90/30"/>
+		</sequence>
+		<sequence editable_state="false" name="'anim_enter_drills_finished'" triggable="true">
+			<sound action="'stop'" event="'clk_hlp_drill_idle_enter'" source="'snd_drill'"/>
+			<sound action="'play'" event="'clk_hlp_drill_idle_exit'" source="'snd_drill'"/>
+		</sequence>
+		<sequence editable_state="false" name="'anim_drill_hit'" triggable="true"/>
+		<sequence editable_state="true" name="'anim_enter_flamethrower_enabled'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'flame_enter'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="true"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="true" name="'body_flamethrower'"/>
+			<sound action="'play'" event="'hlp_clk_appear'" source="'snd_body'"/>
+			<run_sequence name="'int_seq_flamethrower_enter_flames'" start_time="90/30"/>
+			<sound action="'stop'" event="'hlp_clk_flamethrower_start'" source="'snd_flame'" start_time="195/30"/>
+			<sound action="'play'" event="'hlp_clk_flamethrower_fire_stop'" source="'snd_flame'" start_time="195/30"/>
+			<run_sequence name="'int_seq_flamethrower_enter_done'" start_time="210/30"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_flamethrower_enter_flames'" triggable="false">
+			<effect_spawner enabled="true" name="'flames'"/>
+			<sound action="'play'" event="'hlp_clk_flamethrower_start'" source="'snd_flame'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_flamethrower_enter_done'" triggable="false"/>
+		<sequence editable_state="true" name="'anim_snipers_exit'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'sniper_exit'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'play'" event="'hlp_clk_disappear'" source="'snd_body'" start_time="20/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_snipers_enter'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'sniper_enter'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<run_sequence name="'int_seq_spawn_snipers'" start_time="112/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_snipers_enter_single'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'sniper_enter_single'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<run_sequence name="'int_seq_spawn_snipers'" start_time="112/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_snipers_exit_single'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'sniper_exit_single'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'play'" event="'hlp_clk_disappear'" source="'snd_body'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_snipers'" triggable="false"/>
+		<sequence editable_state="true" name="'anim_drill_attack_close_enter'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'drill_close_attack_enter'"/>
+			<graphic_group name="'drill_r'" visibility="true"/>
+			<graphic_group name="'drill_l'" visibility="true"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<body enabled="true" name="'body_rill_l'"/>
+			<body enabled="true" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'play'" event="'clk_hlp_drill_attack_enter'" source="'snd_drill'"/>
+			<run_sequence name="'anim_drill_hit'" start_time="45/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_drill_attack_close_exit'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'drill_close_attack_exit'"/>
+			<graphic_group name="'drill_r'" visibility="true"/>
+			<graphic_group name="'drill_l'" visibility="true"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<body enabled="true" name="'body_rill_l'"/>
+			<body enabled="true" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'stop'" event="'clk_hlp_drill_attack_enter'" source="'snd_drill'"/>
+			<sound action="'play'" event="'clk_hlp_drill_attack_exit'" source="'snd_drill'"/>
+			<sound action="'play'" event="'hlp_clk_disappear'" source="'snd_body'"/>
+			<run_sequence name="'state_vis_hide'" start_time="85/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_drill_attack_far_enter'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'drill_far_attack_enter'"/>
+			<graphic_group name="'drill_r'" visibility="true"/>
+			<graphic_group name="'drill_l'" visibility="true"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<body enabled="true" name="'body_rill_l'"/>
+			<body enabled="true" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'play'" event="'clk_hlp_drill_attack_enter'" source="'snd_drill'"/>
+			<run_sequence name="'anim_drill_hit'" start_time="45/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_drill_attack_far_exit'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'drill_far_attack_exit'"/>
+			<graphic_group name="'drill_r'" visibility="true"/>
+			<graphic_group name="'drill_l'" visibility="true"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<body enabled="true" name="'body_rill_l'"/>
+			<body enabled="true" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'stop'" event="'clk_hlp_drill_attack_enter'" source="'snd_drill'"/>
+			<sound action="'play'" event="'clk_hlp_drill_attack_exit'" source="'snd_drill'"/>
+			<sound action="'play'" event="'hlp_clk_disappear'" source="'snd_body'"/>
+			<run_sequence name="'state_vis_hide'" start_time="85/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_drill_attack_single_enter'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'drill_single_attack_enter'"/>
+			<graphic_group name="'drill_r'" visibility="true"/>
+			<graphic_group name="'drill_l'" visibility="true"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<body enabled="true" name="'body_rill_l'"/>
+			<body enabled="true" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'play'" event="'clk_hlp_drill_attack_enter'" source="'snd_drill'"/>
+			<run_sequence name="'anim_drill_hit'" start_time="45/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_drill_attack_single_exit'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'drill_single_attack_exit'"/>
+			<graphic_group name="'drill_r'" visibility="true"/>
+			<graphic_group name="'drill_l'" visibility="true"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<body enabled="true" name="'body_rill_l'"/>
+			<body enabled="true" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'stop'" event="'clk_hlp_drill_attack_enter'" source="'snd_drill'"/>
+			<sound action="'play'" event="'clk_hlp_drill_attack_exit'" source="'snd_drill'"/>
+			<sound action="'play'" event="'hlp_clk_disappear'" source="'snd_body'"/>
+			<run_sequence name="'state_vis_hide'" start_time="85/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_drill_attack_medium_enter'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'drill_medium_attack_enter'"/>
+			<graphic_group name="'drill_r'" visibility="true"/>
+			<graphic_group name="'drill_l'" visibility="true"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<body enabled="true" name="'body_rill_l'"/>
+			<body enabled="true" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'play'" event="'clk_hlp_drill_attack_enter'" source="'snd_drill'"/>
+			<run_sequence name="'anim_drill_hit'" start_time="45/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_drill_attack_medium_exit'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'drill_medium_attack_exit'"/>
+			<graphic_group name="'drill_r'" visibility="true"/>
+			<graphic_group name="'drill_l'" visibility="true"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<graphic_group name="'grenade_pin'" visibility="false"/>
+			<graphic_group name="'grenade'" visibility="false"/>
+			<body enabled="true" name="'body_rill_l'"/>
+			<body enabled="true" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'stop'" event="'clk_hlp_drill_attack_enter'" source="'snd_drill'"/>
+			<sound action="'play'" event="'clk_hlp_drill_attack_exit'" source="'snd_drill'"/>
+			<sound action="'play'" event="'hlp_clk_disappear'" source="'snd_body'"/>
+			<run_sequence name="'state_vis_hide'" start_time="85/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_flamethrower_attack_enter'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'flame_attack_enter'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="true"/>
+			<graphic_group name="'grenade_pin'" visibility="false"/>
+			<graphic_group name="'grenade'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="true" name="'body_flamethrower'"/>
+			<effect_spawner enabled="true" name="'flames'"/>
+			<sound action="'play'" event="'hlp_clk_appear'" source="'snd_body'"/>
+			<sound action="'play'" event="'hlp_clk_flamethrower_start'" source="'snd_flame'"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_smoke_attack'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'smoke_attack_enter'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<graphic_group name="'grenade_pin'" visibility="false"/>
+			<graphic_group name="'grenade'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<run_sequence name="'int_seq_pin_out'" start_time="104/30"/>
+			<run_sequence name="'int_seq_smoke_start'" start_time="164/30"/>
+			<run_sequence name="'int_seq_smoke_expload'" start_time="290/30"/>
+			<sound action="'play'" event="'hlp_clk_appear'" source="'snd_body'"/>
+			<run_sequence name="'state_vis_hide'" start_time="345/30"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_pin_out'" triggable="false">
+			<sound action="'play'" event="'hlp_clk_throw_smoke'" source="'snd_flame'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_smoke_start'" triggable="false"/>
+		<sequence editable_state="false" name="'int_seq_smoke_expload'" triggable="false"/>
+		<sequence editable_state="true" name="'anim_flamethrower_attack_exit'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'flame_attack_exit'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="true"/>
+			<graphic_group name="'grenade_pin'" visibility="false"/>
+			<graphic_group name="'grenade'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="true" name="'body_flamethrower'"/>
+			<effect_spawner enabled="false" name="'flames'"/>
+			<sound action="'stop'" event="'hlp_clk_flamethrower_start'" source="'snd_flame'"/>
+			<sound action="'play'" event="'hlp_clk_flamethrower_fire_stop'" source="'snd_flame'"/>
+			<sound action="'play'" event="'hlp_clk_disappear'" source="'snd_body'" start_time="30/30"/>
+			<run_sequence name="'state_vis_hide'" start_time="125/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_drop_bulldozer'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'dozer_attack_enter'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<graphic_group name="'grenade_pin'" visibility="false"/>
+			<graphic_group name="'grenade'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<run_sequence name="'int_seq_spawn_dozer'" start_time="45/30"/>
+			<sound action="'play'" event="'hlp_clk_disappear'" source="'snd_body'" start_time="210/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'int_seq_spawn_dozer'" triggable="true"/>
+		<sequence editable_state="true" name="'anim_lean_left_enter'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'lean_left_enter'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<graphic_group name="'grenade_pin'" visibility="false"/>
+			<graphic_group name="'grenade'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_lean_right_enter'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'lean_right_enter'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<graphic_group name="'grenade_pin'" visibility="false"/>
+			<graphic_group name="'grenade'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_lean_left_exit'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'lean_left_exit'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<graphic_group name="'grenade_pin'" visibility="false"/>
+			<graphic_group name="'grenade'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_lean_right_exit'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'lean_right_exit'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<graphic_group name="'grenade_pin'" visibility="false"/>
+			<graphic_group name="'grenade'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_level_start'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'level_start_enter'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<graphic_group name="'grenade_pin'" visibility="false"/>
+			<graphic_group name="'grenade'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'play'" event="'hlp_clk_first_appear'" source="'snd_body'"/>
+			<sound action="'play'" event="'hlp_clk_disappear'" source="'snd_body'" start_time="840/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_level_start_short'" triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<animation_redirect name="'level_start_short_enter'"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<graphic_group name="'grenade_pin'" visibility="false"/>
+			<graphic_group name="'grenade'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<sound action="'play'" event="'hlp_clk_first_appear'" source="'snd_body'"/>
+			<sound action="'play'" event="'hlp_clk_disappear'" source="'snd_body'" start_time="370/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_hide'" triggable="true">
+			<graphic_group name="'cloaker'" visibility="false"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<graphic_group name="'grenade_pin'" visibility="false"/>
+			<graphic_group name="'grenade'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<effect_spawner enabled="false" name="'flames'"/>
+			<effect_spawner enabled="false" name="'eye_l'"/>
+			<effect_spawner enabled="false" name="'eye_r'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_show'" triggable="true">
+			<graphic_group name="'cloaker'" visibility="true"/>
+			<graphic_group name="'drill_r'" visibility="false"/>
+			<graphic_group name="'drill_l'" visibility="false"/>
+			<graphic_group name="'flamethrower'" visibility="false"/>
+			<graphic_group name="'grenade_pin'" visibility="false"/>
+			<graphic_group name="'grenade'" visibility="false"/>
+			<body enabled="false" name="'body_rill_l'"/>
+			<body enabled="false" name="'body_rill_r'"/>
+			<body enabled="false" name="'body_flamethrower'"/>
+			<effect_spawner enabled="true" name="'eye_l'"/>
+			<effect_spawner enabled="true" name="'eye_r'"/>
+		</sequence>
+	</unit>
+</table>

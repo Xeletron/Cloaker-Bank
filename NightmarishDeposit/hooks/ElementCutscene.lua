@@ -1,7 +1,7 @@
 core:import("CoreMissionScriptElement")
 ElementCutscene = ElementCutscene or class(CoreMissionScriptElement.MissionScriptElement)
 
-function ElementApplyMask:client_on_executed(...)
+function ElementCutscene:client_on_executed(...)
     self:on_executed(...)
 end
 

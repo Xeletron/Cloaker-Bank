@@ -42,8 +42,8 @@
 		<object force="true" path="units/pd2_dlc_bph/characters/civ_male_bain/civ_male_bain" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des" type="unit">
-		<unit force="true" path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des" unload="true"/>
-		<unit force="true" path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des_husk" unload="true"/>
+		<unit path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des" load="true" unload="true"/>
+		<unit path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des_husk" load="true" unload="true"/>
 		<object force="true" path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des" unload="true"/>
 		<cooked_physics force="true" path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des" unload="true"/>
 		<model force="true" path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des" unload="true"/>
