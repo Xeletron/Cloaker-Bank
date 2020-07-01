@@ -794,7 +794,7 @@
 			<unit_data _prev_pos="-3144 -3686.67 5017" _prev_rot="0 0 1 -4.37114e-008" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="-1280 800 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a" name_id="hcm_int_floor_4x4m_a_040" position="-3144 -3686.67 5017" rotation="0 0 1 4.37114e-008" unit_id="300152"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-3762 -5394 5004" _prev_rot="0 0 -0.707107 -0.707107" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="-662 2507.33 -13" local_rot="0 0 0.707107 -0.707107" mesh_variation="state_door_close" name="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" name_id="gen_interactable_door_wooden_a_007" position="-3762 -5394 5004" rotation="0 0 -0.707107 -0.707107" unit_id="300154"/>
+			<unit_data _prev_pos="-3762 -5394 5004" _prev_rot="0 0 -0.707107 -0.707107" continent="escape_maze" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_door_close" name="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" name_id="gen_interactable_door_wooden_a_007" position="-3762 -5394 5004" rotation="0 0 -0.707107 -0.707107" unit_id="300154"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-5163 -4980.67 5004" _prev_rot="0 0 1 -4.37114e-008" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="739 2094 -13" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a" name_id="hcm_int_floor_4x4m_a_044" position="-5163 -4980.67 5004" rotation="0 0 1 4.37114e-008" unit_id="300158"/>
@@ -4540,7 +4540,16 @@
 			<unit_data _prev_pos="-8395.38 -7502.35 5018.46" _prev_rot="0 0 0 -1" continent="escape_maze" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="3971.38 4615.68 1.46191" local_rot="0 0 1 -4.37114e-008" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m" name_id="dev_bag_collision_8x3m_033" only_visible_in_editor="true" position="-8395.38 -7502.35 5018.46" rotation="0 0 -0 -1" unit_id="301304"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5097.4 -3651.95 775" _prev_rot="0 0 0.707107 -0.707107" continent="escape_maze" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="673.4 765.28 -4242" local_rot="0 0 0.707107 0.707107" name="units/payday2/architecture/lux/lux_int_wall1_2m_a" name_id="lux_int_wall1_2m_a_028" position="-5097.4 -3651.95 775" rotation="0 0 0.707107 -0.707107" unit_id="301305"/>
+			<unit_data _prev_pos="-3748.1 -5396.67 5148.87" _prev_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" continent="escape_maze" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="mazetell_text" position="-3748.1 -5396.67 5148.87" rotation="3.09086e-008 0.707107 0.707107 3.09086e-008" unit_id="300996">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_eroded" font_color="0 1 0" font_size="2.5" render_template="diffuse_vc_decal" text="FUCK YOU" vertical="center" word_wrap="false" wrap="true">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="0.4"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
 		</table>
 	</statics>
 	<values>

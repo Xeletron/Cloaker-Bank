@@ -967,6 +967,9 @@
 		<table>
 			<unit_data _prev_pos="-3917.22 -170.076 852.24" _prev_rot="0 0 -0.707107 -0.707107" continent="escape_office" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" name_id="monitor_hack008" position="-3917.22 -170.076 852.24" rotation="0 0 -0.707107 -0.707107" unit_id="400321"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-5097.4 -3651.95 775" _prev_rot="0 0 0.707107 -0.707107" continent="escape_office" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_int_wall1_2m_a" name_id="lux_int_wall1_2m_a_028" position="-5097.4 -3651.95 775" rotation="0 0 0.707107 -0.707107" unit_id="400322"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
